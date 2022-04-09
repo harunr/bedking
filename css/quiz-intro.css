@@ -1,0 +1,53 @@
+
+.quiz-intro-content{padding-top:0px;}
+.progress-wrap{float: left; width: 100%; padding: 11px 0 11px; background-color: #1e306e; height: 60px;}
+.progress-wrap .common-wrap{max-width: 1416px}
+.progress-details{float: left;width: 100%}
+.logo-content{float: left;width: 195px;height: auto;}
+.close-btn{float: left; width: calc(100% - 195px); position: relative; cursor: pointer}
+.close-btn img {float: right; border-radius: 1px; position: absolute; right: 8px; top: 8px;}
+.close-btn:after { content: ''; position: absolute; width: 40px; height: 40px; background-color: #ffffff; opacity: 0.2; border-radius: 50%;left: auto; right: 0; top: 0px;}
+
+.quiz-intro-wrap{float: left;width: 100%;background-color: #e5f1ff;padding: 40px 0 100px;height: 96vh;}
+.quiz-intro-wrap .common-wrap {max-width: 790px}
+.quiz-intro-wrap h1 {text-align:center;margin-top: 40px;letter-spacing: normal}
+.quiz-intro-info{max-width: 360px; margin: 0 auto;}
+.quiz-intro-thumb{float: left;width: 100%; padding-top:40px;}
+.quiz-intro-text{float: left; width: 100%;margin-top: 40px;}
+.quiz-intro-text h3{letter-spacing: -0.4px;text-align: center;}
+.quiz-intro-row-wrap{float: left;width: 100%;margin-top: 34px}
+.quiz-intro-row{float: left;width: 100%;}
+.quiz-intro-row-wrap input:not([type="submit"]){font-size: 20px;text-align: center;line-height: 30px}
+.quiz-intro-row.submit{margin-top: 40px;display: flex; justify-content: center;}
+.quiz-intro-row-wrap input[type="submit"]{opacity: 0.5;}
+.back-side-btn{float: left; width: 100%; position: absolute; top: 35px; left: 39px;}
+.back-side-btn a{font-size: 14px; line-height: 20px; color: #3c81f5; position: relative; padding-left: 17px;}
+.back-side-btn a:hover{text-decoration: underline}
+.back-side-btn a:before { content: ''; position: absolute; background-image: url(../img/quiz-results/arrow-left.png); background-position: center; background-repeat: no-repeat; background-size: 16px 16px; width: 16px; height: 16px; left: -1px; top: 2px; }
+
+
+
+
+/*		Mobile Layout: 320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	
+	.progress-wrap{padding: 18px 0 0px;}
+	.logo-content {width: 129px;}
+	.close-btn{width: 100%;  padding: 5px 0 0; }
+	.close-btn img{right: 8px; top: -26px;}
+	.close-btn:after{left: auto; right: 0; top: auto; bottom: 0;}
+	
+	.quiz-intro-thumb {padding: 24px 33px;}
+	.quiz-intro-row.submit{display: none;}
+	.quiz-intro-wrap h1{margin-top: 17px; letter-spacing:-0.5px;}
+	.back-side-btn{top: 11px; left: 23px;}
+	.quiz-intro-text{margin-top: 1px;}
+	.quiz-intro-row-wrap{ margin-top: 15px;}
+	
+	
+	
+}
+
+

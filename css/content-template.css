@@ -1,0 +1,223 @@
+.find-right-mattress-wrap{background-color: #f6f9fd; background-image: none}
+.find-right-mattress-container{background-color: #ffffff; background-image: none; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap; justify-content: space-between;}
+.find-right-mattress-thumb {float: right; width: 48.685%; margin-left: -67px; z-index: -1}
+.find-right-mattress-thumb img{border-bottom-right-radius: 10px;border-top-right-radius: 10px;}
+.find-right-mattress-content {width: 57.19298245614035%; margin-left: 0; padding: 13px 0 10px 10px;}
+.find-right-mattress-inner{float: right; max-width: 555px;}
+.find-right-mattress-inner h1{letter-spacing: 0}
+.find-right-mattress-content .lead{max-width: 100%}
+/* Why Correct Mattress */
+.why-correct-mattress{float: left; width: 100%; padding-top: 80px; }
+.why-correct-mattress h2 { text-align: center; letter-spacing: 0; padding: 0 100px; letter-spacing: -.2px;}
+.why-correct-mattress h2 + p{padding: 0 100px; font-size: 20px; line-height: 30px; color: #616e99; text-align: center; margin-top: 22px;}
+.why-correct-mattress-item-wrap { float: left; width: 100%; margin-top: 40px; counter-reset: number; }
+.why-correct-mattress-item{float: left; width: 100%; margin-top: 40px; padding: 40px 0;  display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; align-items: center; flex-flow: row wrap; justify-content: space-between}
+.why-correct-mattress-item:first-child{margin-top: 0;}
+.why-correct-mattress-content{float: left; width: 40.17543859649123%; padding-bottom: 0px; padding-left: 4.913%; position: relative;}
+.why-correct-mattress-content:before {counter-increment: number; content: "" counter(number); font-size: 20px; line-height: 30px; letter-spacing: 0; position: absolute; left: 0; top: 0; display: flex; align-content: center; justify-content: space-around; align-items: center; width: 40px; height: 40px; text-align: center; background-color: #f6f9fd; border-radius: 32px; }
+.why-correct-mattress-content h3{letter-spacing: -.4px;}
+.why-correct-mattress-content p{margin-top: 20px;}
+.why-correct-mattress-thumb{float: left; width: 48.68421052631579%;}
+.why-correct-mattress-item:nth-child(odd) .why-correct-mattress-content{order: 2}
+.why-correct-mattress-item:nth-child(odd) .why-correct-mattress-thumb{order: 1}
+/* Why Correct Mattress */
+
+
+
+/* Beds Blog */
+.beds-blog{float: left; width: 100%; padding-top: 80px;}
+.beds-blog-item-wrap{float: left; width: 100%;}
+.beds-blog-item{float: left; width: 100%; margin-top: 40px; padding: 40px 0; display: -webkit-flex; display: -moz-flex; display: flex; align-items: center; flex-flow: row wrap; justify-content: space-between}
+.beds-blog-item:first-child{margin-top: 0;}
+.beds-blog-content{float: left; width: 40.17543859649123%;}
+.beds-blog-content h3{letter-spacing: -.4px;}
+.beds-blog-content p{margin-top: 20px;}
+.beds-blog-thumb{float: left; width: 48.68421052631579%;}
+.trailing-btn{float: left; width: 100%; margin-top: 20px;}
+.beds-blog-item:nth-child(even) .beds-blog-content{order: 2}
+.beds-blog-item:nth-child(even) .beds-blog-thumb{order: 1}
+/* Beds Blog */
+
+.info-wrap{margin-top: 81px;}
+.info-wrap h3{text-align: center; letter-spacing: -0.5px;}
+.info-card-wrap{margin-top: 39px; }
+
+.real-slepping-wrap{float: left; width: 100%; padding-top: 80px; background-color: #f6f9fd; margin-top: 121px;}
+.real-slepping-wrap .common-wrap{max-width: 984px;}
+.real-slepping-wrap h3{text-align: center; letter-spacing: -.5px}
+.real-slepping-content{float: left; width: 100%; margin-top: 40px; z-index: 9; position: relative; background-color: #ffffff;  border-radius: 10px; box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3); padding: 40px 60px; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap; justify-content: space-between;}
+.real-slepping-left, .real-slepping-right{float: left; width: 46.2378640776699%;}
+.real-slepping-item{float: left; width: 100%; padding-left: 54px; position: relative; margin-top: 22px;}
+.real-slepping-left .real-slepping-item:first-child, .real-slepping-right .real-slepping-item:first-child{margin-top: 5px;}
+.real-slepping-left .real-slepping-item:nth-child(3), .real-slepping-right .real-slepping-item:nth-child(3){margin-top: 25px;}
+.real-slepping-left .real-slepping-item:nth-child(4), .real-slepping-right .real-slepping-item:nth-child(4){margin-top: 25px;}
+/*.real-slepping-item:nth-child(5), .real-slepping-item:nth-child(6), .real-slepping-item:nth-child(7), .real-slepping-item:nth-child(8) { margin-top: 25px; }*/
+.real-slepping-item:before, .real-slepping-item:after{content: ''; position: absolute; top: 5px; left: 5px; background-image: url(../svgs/content-template/check.svg); background-size: 24px 24px; width: 24px; height: 24px; background-repeat: no-repeat; background-position: center center;}
+.real-slepping-item:after{background-image: none; background-color: #f6f9fd; width: 36px; height: 36px; border-radius: 32px; background-size: cover; z-index: -1; top: 0; left: 0;}
+.real-slepping-item h6{letter-spacing: 0; font-weight: 700; padding-top: 3px;}
+.real-slepping-item p{margin-top: 16px;}
+
+
+
+/* Selling Points Wrap */
+.selling-points-wrap{float: left; width: 100%; padding-top: 80px;}
+.selling-points-item-wrap{float: left; width: 100%; display: -webkit-flex; display: -moz-flex;flex-flow: row wrap; display: flex; justify-content: space-between;}
+.selling-points-item{float: left; width: 31.57894736842105%; padding: 0 30px; text-align: center;}
+.selling-points-item figure{max-width: 64px; margin: 0 auto}
+.selling-points-content{float: left; width: 100%; margin-top: 20px;}
+.selling-points-item p{margin-top: 16px;}
+.selling-points-btn{margin-top: 20px;}
+/* Selling Points Wrap */
+
+
+/* =======================================================================================================
+============================================ Responsive style ========================================== */
+
+/*		Mobile Layout: 320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    input[type="text"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+
+    
+    
+    
+    .find-right-mattress-wrap{background-color: transparent; padding-top: 33px;}
+    .find-right-mattress-wrap .common-wrap{padding: 0}
+    .find-right-mattress-container{box-shadow: none}
+    .find-right-mattress-content{width: 100%; margin: 0; padding: 0 16px; box-shadow: none}
+    .find-right-mattress-content .lead{margin-top: 16px;}
+    .find-right-mattress-content .find-mattress-btn{margin-top: 24px;}
+    .find-right-mattress-thumb{width: 100%; margin-left: 0; margin-top: 30px;}
+    .find-right-mattress-thumb img{border-radius: 0}
+    .why-correct-mattress{padding-top: 36px;}
+    .why-correct-mattress h2, .why-correct-mattress h2 + p{padding: 0;}
+    .why-correct-mattress h2 + p{margin-top: 26px;}
+    .why-correct-mattress-content{width: 100%; padding-left: 48px;}
+    .why-correct-mattress-item-wrap {margin-top: 0;}
+    .why-correct-mattress-item{padding: 59px 0 0; margin-top: 0;}
+    .why-correct-mattress-item:nth-child(odd) .why-correct-mattress-content{order: 1}
+    .why-correct-mattress-item:nth-child(2) .beds-blog-thumb{margin-top: 27px;}
+    .why-correct-mattress-content h3{margin-top: 4px;}
+    .why-correct-mattress-content p{margin-top: 12px;}
+    .beds-blog-thumb{width: 100%; margin-top: 24px;}
+    .info-wrap {padding: 0 0px; }
+    .info-card-wrap{margin-top: 23px;}
+    .why-correct-mattress-item:nth-child(odd) .beds-blog-thumb{order: 2}
+    .info-wrap{margin-top: 63px;}
+    .real-slepping-wrap{margin-top: 43px;}
+    .real-slepping-wrap .common-wrap{padding: 0;}
+    .real-slepping-wrap h3{padding: 0 16px;}
+    .real-slepping-content{margin-top: 19px; padding: 23px 17px;}
+    .real-slepping-item{width: 100%}
+    .real-slepping-item, .real-slepping-left .real-slepping-item:nth-child(3), .real-slepping-left .real-slepping-item:nth-child(4), .real-slepping-right .real-slepping-item:first-child, .real-slepping-right .real-slepping-item:nth-child(3), .real-slepping-right .real-slepping-item:nth-child(4){margin-top: 28px;}
+    .real-slepping-left, .real-slepping-right{width: 100%}
+    .sign-up-wrap { padding: 62px 0 57px; margin-top: 61px; }
+    
+    /*selling points wrap*/
+    .selling-points-wrap{padding-top: 60px;}
+    .selling-points-wrap .common-wrap{padding: 0 30px;}
+    .selling-points-item{width: 100%; padding: 0; margin-top: 60px;}
+    .selling-points-item p {margin-top: 14px;}
+    .selling-points-item:first-child{margin-top: 0;}
+    .selling-points-content{margin-top: 22px;}
+    .selling-points-btn {margin-top: 18px;}
+    /*selling points wrap*/
+
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+   
+    
+
+}
+
+
+/*		Wide Mobile Layout: 480px.
+------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .info-card-item figure{min-height: auto; max-height:none;}
+    .info-card-item figure:before{bottom: 0; height: 25px}
+    
+}
+/*
+
+
+/*		Tablet Layout: 768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    input[type="text"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+
+    
+    .find-right-mattress-content {padding: 0px 0 0px 18px; }
+    .find-right-mattress-inner h1{font-size: 30px; line-height: 40px;}
+    .find-right-mattress-content .lead{margin-top: 10px;}
+    .find-mattress-btn {margin-top: 10px; }
+    .beds-blog-thumb{width: 48%}
+    .why-correct-mattress-content {width: 48%; padding-left: 50px;}
+    .real-slepping-content{padding: 40px 20px;}
+    
+    
+}
+
+
+/*		Tablet Layout: 1024px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    input[type="text"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+    
+    
+    .find-right-mattress-inner h1{font-size: 40px; line-height: 50px;}
+    .why-correct-mattress-content {width: 47%; padding-left: 50px;}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1120px) {
+
+
+
+}
+
+@media only screen and (min-width: 1121px) and (max-width: 1400px) {
+
+   
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1160px) {
+    
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
+    
+}
+
+
+
+
+
+
+/*	Retina media query.
+Overrides styles for devices with a 
+device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-device-pixel-ratio: 2) {
+
+
+}
+
+
+
+
+
+
+

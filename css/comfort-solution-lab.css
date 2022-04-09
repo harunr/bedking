@@ -1,0 +1,359 @@
+/* Comfort Solution Lab Page */
+/* Hero Wrap */
+.hero-wrap{float: left; width: 100%}
+.hero-back-bg{float: left; width: 100%; min-height: 500px; background-position: 85%;}
+.hero-back-bg:before{content: ''; width: 320px; height: 165px; top: auto;   position: absolute; left: 50%; transform: translateX(-50%); background-image: url(../img/comfort-solution-lab/hero-radius-shape.png); background-size: cover; background-position: center center; background-repeat: no-repeat; bottom: -9px; z-index: 1;}
+.hero-content-wrap {float: left; width: 100%;  margin-top: 83px; position: absolute; top: 0; max-width: 555px;}
+.hero-content-wrap h1{letter-spacing: -.3px}
+.hero-content-wrap .lead{margin-top: 19px;}
+.hero-wrap figure {position: absolute; width: 184px; bottom: 21px; left: 50%; transform: translateX(-50%); z-index: 1;}
+.hero-btn{float: left; width: 100%; margin-top: 40px;}
+/* Hero Wrap */
+/* Testimonial Slider */
+.testimonial-slider{float: left; width: 100%; padding: 83px 0 108px;}
+.testimonial-slider-wrap{float: left; width: 100%;}
+.testimonial-slider-inner{float: left; width: 102.5%; margin-left: -1.25%;}
+.testimonial-slider-item{float: left; width: 31.57894736842105%; margin: 0 15px; padding-bottom: 30px; padding-top: 0; transition: .3s ease-in-out;     margin-bottom: 10px;}
+.testimonial-slider-item-inner{float: left; width: 100%; border-radius: 10px; box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2), 0 -11px 6px -10px rgba(0, 0, 0, 0.05); padding: 68px 37px 30px; background-color: #f6f9fd; transition: .3s ease-in-out; position: relative; text-align: center;}
+.testimonial-slider-item-inner:after{content: ''; width: 25px; height: 19px; background-image: url(../img/comfort-solution-lab/testimonial-icon.png); background-size: 25px 19px; background-position: center center; background-repeat: no-repeat; position: absolute; top: 30px; left: 50%; transform: translateX(-50%)}
+.testimonial-slider-item-inner:after{content: ''; width: 25px; height: 19px; background-image: url(../img/comfort-solution-lab/testimonial-icon.png); background-size: 25px 19px; background-position: center center; background-repeat: no-repeat; position: absolute; top: 30px; left: 50%; transform: translateX(-50%)}
+.testimonial-slider-item-inner span, .testimonial-slider-item-inner dfn{float: left; width: 100%; margin-top: 20px; font-size: 14px; line-height: 20px; color: #1e306e}
+.testimonial-slider-item-inner dfn{margin-top: 4px; color: #616e99}
+.testimonial-slider-wrap .slick-center/* .testimonial-slider-item*/{padding-bottom: 0; padding-top: 30px;}
+.testimonial-slider-wrap .slick-center .testimonial-slider-item-inner{background-color: #e5f1ff; }
+.testimonial-slider-wrap .slick-next{background-image: url(../svgs/comfort-solution-lab/arrow-right-blue.svg)}
+.testimonial-slider-wrap .slick-prev{background-image: url(../svgs/comfort-solution-lab/arrow-right-blue-left.svg)}
+.testimonial-slider-wrap .slick-next:before{content: ''}
+.testimonial-slider-wrap .slick-prev:before{content: ''}
+.testimonial-slider-wrap .slick-prev, .testimonial-slider-wrap .slick-next{left: auto; right: 26px; bottom: -99px; top: auto; z-index: 9;}
+.testimonial-slider-wrap .slick-prev{right: 96px}
+.testimonial-slider-wrap .disabled{opacity: .50;}
+/* Testimonial Slider */
+/* Comfort Solution */
+.comfort-solution{float: left; width: 100%; margin-top: 70px; min-height: 500px; display: -webkit-flex; display: -moz-flex; display: flex; flex-flow: row wrap; align-items: center}
+@media only screen and (min-width: 767px){.mobi-bg{float: left; width: 50.34722222222222%; background-image: none !important;}}
+.comfort-solution-video-wrap{float: left; width: 100%; min-height: 500px; background-image: url(../img/comfort-solution-lab/full-width-transparent@x2.png); background-size: cover; background-repeat: no-repeat; background-position: center center; position: relative;}
+.comfort-solution-text{float: left; width: 48.852778%; padding-right: 10px;}
+.comfort-solution-text-inner{max-width: 480px; margin: 0 auto}
+.comfort-solution-text-inner h2{letter-spacing: -.3px}
+.comfort-solution-text-inner dfn{display: inline-block}
+.comfort-solution-text-inner p{margin-top: 20px;}
+.comfort-solution-btn{float: left; width: 100%; margin-top: 40px;}
+/* Comfort Solution */
+/* Feature section */
+.flex-control-nav{display: none}
+.how-it-works{float:left; width:100%; padding-top: 80px; padding-bottom: 74px; text-align: center}
+.how-it-works .common-wrap{max-width: 1120px; }
+.how-it-works-content{max-width: 750px; margin: 0 auto}
+.how-it-works-content .lead{margin-top: 21px;}
+.how-it-works-inner {float: left; width: 100%; margin-top: 50px; position: relative;display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap; justify-content: space-between;}
+.feature-icon{width:36px}
+.column-graphics {float: left; width: 45.83333333333333%; position: relative; order: 2; margin-top: 78px;}
+.graphics{text-align: center}
+.flex-direction-nav{display: none;}
+.flex-active-slide{opacity: 1 !important;}
+.feature-content-wrap {float: left; width: 45.83333333333333%; text-align: left; order: 1;}
+.feature-item-wrap{float:left; width:100%;}
+.feature-inner-item {float: left; width: 100%; margin: 0 auto; outline: none;}
+.feature-inner-item:first-child{margin-left: 0; clear: both}
+.feature-inner-item:last-child{margin-right: 0;}
+.feature-item{float:left; width:100%; padding: 31px 30px 34px;  position: relative; -webkit-transition: all .3s ease-in; -moz-transition: all .3s ease-in; transition: all .3s ease-in; outline: none;  position: relative; cursor: pointer;overflow:hidden;}
+.feature-item:first-child{padding-bottom: 32px;}
+.feature-text h4 {-webkit-transition: all .3s ease-in; -moz-transition: all .3s ease-in; transition: all .3s ease-in; margin-top: 3px;}
+.feature-text p{margin-top: 15px;}
+.feature-text{float:left; width:100%; padding-left: 56px;}
+.feature-item.feature-active{ box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3);}
+/* Feature section */
+
+/* reasons book wrap */
+.reasons-book-wrap{float: left; width: 100%; padding-top: 80px; background-image: linear-gradient(to left, #fbf6ff, #d2dfff);}
+.reasons-book-container{float: left; width: 100%; box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3); background-image: linear-gradient(to left, #fbf6ff, #d2dfff); display: -webkit-flex; display: -moz-flex; display: flex; align-items: center; flex-flow: row wrap; z-index: 1; position: relative; border-radius: 10px}
+.reasons-book-content{float: left; width: 48.59649122807018%; padding: 100px 0 0 96px; min-height: 460px; border-radius: 10px}
+.reasons-book-content h2{letter-spacing: -0.3px}
+.reason-book-list-wrap{float: left; width: 100%; margin-top: 10px; }
+.reason-book-list-wrap ul li{float: left; width: 100%; margin-top: 10px; padding-left: 32px; position: relative;}
+.reason-book-list-wrap ul li:before{content: ''; position: absolute; left: 0; top: 5px; background-image: url(../svgs/comfort-solution-lab/check-blue.svg); background-size: 16px 16px; background-repeat: no-repeat; background-position: center center; width: 16px; height: 16px;}
+.reasons-book-form{float: left; width: 31.57894736842105%; padding-bottom: 44px; margin-left: 11.2280701754386%;}
+.reasons-book-input-wrap{float: left; width: 100%; padding: 30px;  border-radius: 5px; box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3); background-color: #ffffff; }
+.reasons-book-input-row{float: left; width: 100%; margin-top: 20px;}
+.reasons-book-input-row:first-child{margin-top: 0;}
+.reasons-book-input-row input:not([type="submit"]), textarea{margin-top: 0;}
+.reasons-submit .large{width: 100%}
+/* reasons book wrap */
+/* Why Correct Mattress */
+.why-correct-mattress{float: left; width: 100%; padding-top: 80px; }
+.why-correct-mattress h2{text-align: center; letter-spacing: 0}
+.why-correct-mattress-item-wrap{float: left; width: 100%; margin-top: 40px;}
+.why-correct-mattress-item{float: left; width: 100%; margin-top: 40px; padding: 40px 0;  display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; align-items: center; flex-flow: row wrap; justify-content: space-between}
+.why-correct-mattress-item:first-child{margin-top: 0;}
+.why-correct-mattress-content{float: left; width: 40.17543859649123%; padding-bottom: 20px;}
+.why-correct-mattress-content h3{letter-spacing: -.4px;}
+.why-correct-mattress-content p{margin-top: 20px;}
+.why-correct-mattress-thumb{float: left; width: 48.68421052631579%;}
+.why-correct-mattress-item:nth-child(odd) .why-correct-mattress-content{order: 2}
+.why-correct-mattress-item:nth-child(odd) .why-correct-mattress-thumb{order: 1}
+/* Why Correct Mattress */
+
+/* Beds Blog */
+.beds-blog{float: left; width: 100%; padding-top: 80px;}
+.beds-blog-item-wrap{float: left; width: 100%;}
+.beds-blog-item{float: left; width: 100%; margin-top: 40px; padding: 40px 0; display: -webkit-flex; display: -moz-flex; display: flex; align-items: center; flex-flow: row wrap; justify-content: space-between}
+.beds-blog-item:first-child{margin-top: 0;}
+.beds-blog-content{float: left; width: 40.17543859649123%;}
+.beds-blog-content h3{letter-spacing: -.4px;}
+.beds-blog-content p{margin-top: 20px;}
+.beds-blog-thumb{float: left; width: 48.68421052631579%;}
+.trailing-btn{float: left; width: 100%; margin-top: 20px;}
+.beds-blog-item:nth-child(even) .beds-blog-content{order: 2}
+.beds-blog-item:nth-child(even) .beds-blog-thumb{order: 1}
+/* Beds Blog */
+
+
+
+/* Easy To Find Wrap */
+.easy-features-wrap{float: left; width: 100%; margin-top: 80px; background-color: #f6f9fd}
+.easy-features-item-wrap{float: left; width: 100%; padding-top: 40px; display: -webkit-flex; display: -moz-flex; display: flex; justify-content: space-between; flex-flow: row wrap}
+.easy-features-item{float: left; width: 31.57894736842105%; padding: 0 30px 60px; text-align: center;}
+.easy-features-item figure{max-width: 64px; margin: 0 auto;}
+.easy-features-item h4{margin-top: 20px;}
+.easy-features-item p{margin-top: 16px;}
+/* Easy To Find Wrap */
+/* frequently wrap */
+.frequently-wrap{float: left; width: 100%; padding-top: 80px;}
+.frequently-wrap .sm-container{max-width: 790px}
+.frequently-wrap h2{text-align: center; letter-spacing: 0}
+.frequently-tab-wrap{float: left; width: 100%; margin-top: 40px}
+.frequently-tabs {float: left; width: 100%; border-radius: 5px;}
+.frequently-tabs figure{float: left; width: 24px; margin-top: 3px; margin-left: 1px;}
+.frequently-tabs-nav p {font-size: 14px; line-height: 20px; margin-top: 8px;}
+.frequently-tabs-nav h4 a {text-decoration: none; color: #1e306e;}
+.features-wrap{padding-top: 143px;}
+.frequently-accordion-wrap{float: left; width: 100%; position: relative;}
+.frequently-accordion-inner{float: left; width: 100%; padding-top: 60px; position: relative;}
+.frequently-accordion{float: left; width: 100%; box-shadow:  inset 0 -1px 0 0 rgba(165, 172, 198, 0.5); position: relative;}
+.frequently-accordion.trailing:after{background-image: url(../svgs/comfort-solution-lab/chevron-right-blue.svg); right: 7px}
+.frequently-active.trailing:after{background-image: url(../svgs/comfort-solution-lab/chevron-down-blue.svg)}
+.frequently-accordion-text{display: none; padding: 0px 28px 32px 28px;}
+.frequently-accordion .lead{padding: 25px 128px 25px 0; user-select: none; cursor: pointer; position: relative; z-index: 1}
+.comfort-solution-content .brand-item{width: 12.668%}
+.frequently-tab-content{float: left; width: 100%;}
+.frequently-tabs-nav{float: left; width: 100%; background-color: #f6f9fd; border-radius: 5px; display: -webkit-flex; display: -moz-flex; display: flex; justify-content: space-between; flex-flow: row wrap; padding: 2px 0}
+.frequently-tab-triger{float: left; width: 48.519%;  padding: 16px 30px 16px 17px; cursor: pointer; user-select: none}
+.frequently-tab-active{background-color: #ffffff; border-radius: 5px; box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.1);}
+.frequently-tab-triger-content{float: left; width: 84%; margin-left: 2.5%;}
+.frequently-tab-group{float: left; width: 100%; margin-top: 20px;} 
+.frequently-accordion.trailing:after{top: 27px}
+.frequently-accordion.trailing:before{top: 19px}
+.feature-progress-count{position: absolute; width: 34px; height: 34px; border-radius: 100%; top: 31px; left: 33px; z-index: 1; background-color: #f6f9fd;}
+.feature-progress-count dfn{float: left; width: 100%; text-align: center; padding-top: 4px; color: #1e306e}
+.feature-active .feature-progress-count dfn{color: #3c81f5}
+.progress-bar { position: absolute; width: 40px; height: 40px; margin: 0 auto; left: 30px; top: 37px; }
+.progress-bar .circle-loader-wrap { overflow: hidden; position: relative; margin-top: -9px; width: 40px; height: 40px; background-color: #f6f9fd; border-radius: 40px; -ms-transform: rotate(180deg); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); transform: rotate(180deg); }
+.progress-bar .circle-loader-wrap:after {content: ''; position: absolute; left: 3px; top: 3px; width: 34px; height: 34px; border-radius: 50%; background-color: #f6f9fd;}
+.progress-bar .circle-loader-wrap div {overflow: hidden; position: absolute; width: 50%; height: 100%;}
+.progress-bar .circle-loader-wrap .circle-loader {position: absolute; left: 100%; top: 0; width: 100%; height: 100%; border-radius: 1000px; background-color: #3c81f5;}
+.feature-active .progress-bar .circle-loader-wrap .circle-left-wrap { left: 0; }
+.feature-active .progress-bar .circle-loader-wrap .circle-left-wrap .circle-loader { border-top-left-radius: 0; border-bottom-left-radius: 0; transform-origin: 0 50% 0; -webkit-transform-origin: 0 50% 0; -moz-transform-origin: 0 50% 0; animation: loading-left 12s infinite linear; -webkit-animation: loading-left 12s infinite linear; -moz-animation: loading-left 12s infinite linear; }
+.feature-active .progress-bar .circle-loader-wrap .circle-right-wrap { left: 50%; }
+.feature-active .progress-bar .circle-loader-wrap .circle-right-wrap .circle-loader { left: -100%; border-bottom-right-radius: 0; border-top-right-radius: 0; transform-origin: 100% 50% 0; -webkit-transform-origin: 100% 50% 0;  -moz-transform-origin: 100% 50% 0; animation: loading-right 12s infinite linear; -webkit-animation: loading-right 12s infinite linear;  -moz-animation: loading-right 12s infinite linear; }
+@keyframes loading-left { 0% { transform: rotate(0deg); } 25% { transform: rotate(180deg); } 50% { transform: rotate(180deg); } 75% { transform: rotate(180deg); } 100% { transform: rotate(180deg); } }
+@-webkit-keyframes loading-left { 0% { -webkit-transform: rotate(0deg); } 25% { -webkit-transform: rotate(180deg); } 50% { -webkit-transform: rotate(180deg); } 75% { -webkit-transform: rotate(180deg); } 100% { -webkit-transform: rotate(180deg); } }
+@-moz-keyframes loading-left { 0% { -moz-transform: rotate(0deg); } 25% { -moz-transform: rotate(180deg); } 50% { -moz-transform: rotate(180deg); } 75% { -moz-transform: rotate(180deg); } 100% { -moz-transform: rotate(180deg); } }
+@keyframes loading-right { 0% { transform: rotate(0deg); } 25% { transform: rotate(0deg); } 50% { transform: rotate(180deg); } 75% { transform: rotate(180deg); } 100% { transform: rotate(180deg); } }
+@-webkit-keyframes loading-right { 0% { -webkit-transform: rotate(0deg); } 25% { -webkit-transform: rotate(0deg); } 50% { -webkit-transform: rotate(180deg); } 75% { -webkit-transform: rotate(180deg); } 100% { -webkit-transform: rotate(180deg); } }
+@-moz-keyframes loading-right { 0% { -moz-transform: rotate(0deg); } 25% { -moz-transform: rotate(0deg); } 50% { -moz-transform: rotate(180deg); } 75% { -moz-transform: rotate(180deg); } 100% { -moz-transform: rotate(180deg); } }
+/* frequently wrap */
+/* Sign Up Style */
+.comfort-solution-content .sign-up-wrap{margin-top: 82px; padding: 80px 0 95px;}
+.sign-up-wrap .lead{margin-top: 20px; display: block;}
+.sign-up-btn{float: left; width: 100%; margin-top: 54px;}
+.sign-up-btn a{color: #ffffff; margin-top: 0;}
+.sign-up-btn a:hover{text-decoration: none;}
+/* Sign Up Style */
+
+
+/* Brand Wrap */
+.brand-wrap{float: left; width: 100%; padding-top: 80px; text-align: center;}
+.brand-wrap .sm-container{max-width: 940px;}
+.brand-content{max-width: 750px; margin: 0 auto}
+.brand-wrap h3{letter-spacing: -.4px;}
+.brand-wrap p{margin-top: 20px;}
+.brand-item-wrap{float: left; width: 100%; margin-top: 40px; display: -webkit-flex; display: -moz-flex; display: flex; flex-flow: row wrap; justify-content: space-between;}
+.brand-item{float: left; width: 13.33333333333333%; }
+.brand-item:nth-child(1){float: left; width: 13.33333333333333%; }
+/* Brand Wrap */
+
+
+
+
+/* Comfort Solution Lab Page */
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+input[type="text"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+    
+    .hero-btn { margin-top: 24px; }
+    
+/* how it works */
+.how-it-works{position: relative; padding-top: 60px; padding-bottom: 0;}
+.how-it-works-content{max-width: 100%}
+.how-it-works .common-wrap{padding: 0 16px}
+.how-it-works-inner{margin-top: 0; display: block; }
+.column-graphics{width:100%; position: relative; margin-top: 23px;}
+.feature-content-wrap{padding: 0; width: 100%}
+.how-it-works-content .lead {margin-top: 17px;}
+.feature-text h4{margin-top: 0;}
+.feature-text p{margin-top: 15px;}
+.graphics img{max-width: 200px; margin: 0 auto; clear: both}
+.feature-item{float:left; width:100%; margin: 0; padding: 30px 0 0 0; outline: none}
+.feature-item:first-child{padding-top: 24px; padding-bottom: 0;}
+.progress-bar{display: none;}
+.feature-progress-count {top: 27px; left: 2px; background-color: #f6f9fd;}
+.feature-item:first-child .feature-progress-count{top: 23px}
+/* how it works */
+
+/* hero wrap */
+.hero-wrap{padding-bottom: 303px;}
+.hero-back-bg{min-height: 220px; background-position: 100%; background-size: 690px}
+.hero-content-wrap{bottom: 0; top: auto;}
+.hero-back-bg:before {width: 200px;  height: 105px; bottom: -25px;}
+.lunar-bg:after {height: 16px;}
+.comfort-solution{background-image: none !important; margin-top: 71px;}
+.hero-wrap figure {width: 112px; top: 30.6%; bottom: auto;}
+.hero-content-wrap .lead {margin-top: 16px;}
+.hero-content-wrap {bottom: 0; top: auto; left: 0; text-align: center; max-width: 100%; padding: 0 16px;}
+.comfort-solution-video-wrap {width: 100%; min-height: 220px;}
+.video-play-btn figure {width: 60px;}
+.video-play-btn figure:after {padding: 38px; top: -8px; left: -8px;}
+.comfort-solution-text {float: left; width: 100%; padding: 0 16px; margin-top: 24px;}
+.comfort-solution-btn {margin-top: 24px;}
+/* hero wrap */
+
+/* testimonial slider */
+.testimonial-slider{padding-bottom: 0; padding-top: 57px;}
+.testimonial-slider-item{width: 100%; padding-bottom: 0px; padding-top: 30px; margin: 0 6px}
+.testimonial-slider-wrap .slick-center { padding-bottom: 30px; padding-top: 0px; }
+.testimonial-slider-item-inner{background-color: #e5f1ff}
+.testimonial-slider-inner .slick-dots{bottom: -40px}
+.testimonial-slider-wrap .slick-center .testimonial-slider-item-inner {background-color: #f6f9fd; padding: 72px 37px 30px;}
+.slick-dots li button:hover:before, .slick-dots li button:focus:before{opacity: 0; content: ''}
+.slick-dots li button:before{content: ''}
+.frequently-accordion.trailing:before{top: 24px}
+.frequently-accordion.trailing:after{top: 33px}
+.testimonial-slider-inner .slick-dots li.slick-active button:before {opacity: 0;}
+/* testimonial slider */
+
+/* reasons book wrap */
+.reasons-book-wrap{background-image: none; padding-top: 60px;}
+.reasons-book-wrap .common-wrap{padding: 0}
+.reasons-book-content{padding: 30px 16px; width: 100%; background-image: none!important; min-height: 100%;}
+.reason-book-list-wrap ul li{margin-top: 9px;}
+.reasons-book-container{background-image: linear-gradient(to left, #d2dfff, #fbf6ff) !important;}
+.reasons-book-mobi-bg{float: left; width: 100%; min-height: 210px; background-position: bottom center; border-top-left-radius: 10px; border-top-right-radius: 10px;}
+.reasons-book-form {float: left; width: 100%; padding-bottom: 44px; margin-left: 0; padding-bottom: 0}
+    .reasons-book-input-wrap{padding: 29px 30px 30px; box-shadow: none; border-radius: 0; ;border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;}
+.reasons-submit{margin-top: 10px;}
+/* reasons book wrap */
+
+/* why correct mattress */
+.why-correct-mattress-item-wrap{margin-top: 60px;}
+.comfort-solution-video-wrap .video-play-btn{top: 50%}
+.why-correct-mattress{padding-top: 74px;}
+.beds-blog-thumb { width: 100%; margin-top: 22px; }
+.why-correct-mattress-content{width: 100%; padding-bottom: 2px;}
+.why-correct-mattress-content p {margin-top: 16px;}
+.why-correct-mattress-item{padding-top:0px; margin-top: 60px; padding-bottom: 0;}
+.why-correct-mattress-item:nth-child(odd) .why-correct-mattress-content{order: 1}
+.why-correct-mattress-item:nth-child(odd) .beds-blog-thumb{order: 2}
+/* why correct mattress */
+
+   
+    
+/* easy features wrap */
+.easy-features-wrap{margin-top: 60px;}
+.easy-features-item-wrap{padding-top: 62px;}
+.easy-features-item{width: 100%; margin-top: 18px; padding: 0 16px 60px;}
+.easy-features-item:first-child{margin-top: 0;}
+.frequently-tab-triger {width: 48.519%; padding: 17px 8px 10px;}
+.frequently-wrap{padding-top: 78px;}
+.frequently-tab-wrap{margin-top: 24px;}
+.frequently-wrap .sm-container{padding: 0 16px;}
+.frequently-tab-group{margin-top: 0;}
+.frequently-tab-triger-content {width: 100%; margin-left: 0; margin-top: 9px;}
+.frequently-tab-triger-content h4{font-size: 18px; line-height: 28px}
+.frequently-tabs-nav p{display: none}
+.frequently-tab-triger {width: 50%; padding: 17px 8px 10px; text-align: center;}
+.frequently-tabs figure {float: none; width: 22px; margin: 0 auto;}
+.frequently-accordion .lead {padding: 29px 58px 25px 0;}
+.frequently-accordion-text{padding: 10px}
+
+/* easy features wrap */
+
+.comfort-solution-content .brand-item{width: 100%}
+.comfort-solution-text-inner p {margin-top: 16px;}
+.comfort-solution-text-inner p:nth-child(3){margin-top: 26px;}
+.mobi-bg {width: 100%; background-image: block !important; }
+
+.testimonial-slider-inner .slick-list{padding-left: 0 !important; }
+.value-proposition-item-wrap .slick-list{padding-left: 0 !important; }
+
+/* Sign Up Style */
+.comfort-solution-content .sign-up-wrap{margin-top: 60px; padding: 62px 0 56px;}
+.comfort-solution-content .sign-up-wrap .sm-container{padding:0 16px;}
+.sign-up-wrap .lead{margin-top: 16px;}
+.sign-up-wrap .sign-up-btn{margin-top: 24px;}
+.comfort-solution-content .visit-us-wrap{padding: 63px 0 56px;}
+/* Sign Up Style */
+    
+    
+    
+    
+/* brand wrap */
+.brand-wrap{padding-top: 60px;}
+.brand-content p{margin-top: 16px;}
+.brand-item-wrap{margin-top: 0; display: block;}
+.brand-item:nth-child(1){float: none}
+.brand-item {width: 100%; float: none; max-width: 37%; margin: 0 auto; padding-top: 23px;}
+.brand-item:nth-child(1){width: 100%;}
+/* brand wrap */
+
+}
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .reasons-book-mobi-bg{min-height: 280px}
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    input[type="text"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+
+    .how-it-works{padding-top: 100px;}
+    .progress-bar{left: 6px; top: 30px;}
+    .feature-item {padding: 15px;}
+    .feature-icon, .feature-icon img { width: 30px; height: 30px; top: 5px; left: 0;}
+    .feature-text{padding-left: 45px;}
+    .progress-bar {left: 6px; top: 30px;}
+    .feature-progress-count {top: 24px; left: 9px;}
+    .feature-item:nth-child(5), .feature-item:nth-child(6){margin-top: 10px;}
+    .how-it-works-inner{align-items: center; padding: 0 50px}
+    .feature-content-wrap {width: 100%; padding-top: 30px;}
+    .column-graphics {width: 100%; order: 1; margin-top: 0;}
+    .why-correct-mattress-item{padding: 0; margin: 15px 0}
+    .reasons-book-content {width: 48.59649122807018%; padding: 60px 0 0 30px; min-height: 354px;}
+    .reasons-book-form {width: 45%; padding-bottom: 0; margin-left: 3%;}
+    .comfort-solution{background-position: 25%;}]
+
+    .feature-progress-count dfn{padding-top: 2px;}
+
+
+
+
+
+
+}

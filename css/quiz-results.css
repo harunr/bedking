@@ -1,0 +1,150 @@
+.main-content-wrap.quiz-result{padding-top: 0;}
+
+/*quiz-results-hero*/
+.quiz-results-hero{float: left; width: 100%; background-image: url("../img/quiz-results/hero-bg.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center center;}
+.quiz-bg-shape{width: 100%; height: auto; position: absolute; bottom: 0; left: 0;}
+.quiz-bg-shape img{width: 100%;}
+.quiz-results-hero-inner{float: left; width: 100%; }
+.quiz-results-hero-item{width: 48.6%; margin: 0 auto; text-align: center; background-color: #ffffff; border-radius: 10px; -webkit-box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3); -o-box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3); box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3);padding: 80px 0 44px; overflow: auto; }
+.quiz-results-hero-item-inner{width: 100%; max-width: 360px; margin: 0 auto; }
+.quiz-results-hero-item figure{display: inline-block; margin: 0 auto;}
+.quiz-results-hero-item h1{margin-top: 14px; letter-spacing: normal;}
+.quiz-results-hero-item .lead{margin-top: 20px;}
+.quiz-results-hero-item span{float: left; width: 100%; text-align: center; font-size: 14px; line-height: 20px; font-weight: normal; letter-spacing: normal; color: #616e99; margin-top: 10px;}
+.quiz-results-hero-item span a{color: #3c81f5;}
+.discount-code{float: left; width: 100%; margin-top: 20px;}
+.discount-code dfn{ width: 360px; height: 50px; line-height: 50px; text-align: center; border-radius: 5px; font-size: 18px; font-family: 'Muli', sans-serif; background-color: #f6f9fd; color: #3c81f5; border: 1px solid transparent; font-weight: 700; display: inline-block}
+.not-seeing-email{float: left; width: 100%; display: block; text-align: center; font-size: 14px; line-height: 20px; font-weight: normal; letter-spacing: normal; color: #3c81f5; margin-top: 40px; position: relative; z-index: 999;}
+/*quiz-results-hero*/
+
+/*beiginning-quiz-results-item*/
+.quiz-results-items{float: left; width: 100%; margin-top: 80px;}
+.quiz-results-items .common-wrap{max-width: 977px; padding: 0px 15px 0px 17px;}
+.quiz-results-inner{float: left; width: 100%;}
+.quiz-results-heading{width: 100%; max-width: 759px; margin: 0 auto; text-align: center;}
+.quiz-results-heading h2{letter-spacing: 0}
+.quiz-results-heading a{color: #3c81f5;}
+.quiz-results-heading .lead{margin-top: 20px;}
+.quiz-results-item{float: left; width: 100%; margin-top: 41px; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap;  border-radius: 5px; box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.1);}
+.quiz-results-thumb{float: left; width: 325px; background-color: #f6f9fd; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; justify-content: center; align-items: center;}
+.quiz-results-texts{float: left; width: calc(100% - 325px); padding: 30px; padding-bottom: 28px; position: relative;}
+.quiz-results-item-title{float: left; width: 100%;}
+.quiz-results-item-title h4{float: left; cursor: pointer;}
+.quiz-results-item-title .lead{float: left; margin-left: 4px;}
+.mattress-category{float: left; width:100%; margin-top: 8px;}
+.mattress-category img{float: left;}
+.mattress-category dfn{float: left; margin-left: 7px; font-size: 14px; line-height: 20px; color: #616e99;}
+.quiz-results-texts .note{float: left; font-size: 14px; line-height: 20px; color: #1e306e; margin-top: 20px;}
+.quiz-results-features{float: left; width: 100%; margin-top: 20px;}
+.quiz-results-features ul li{float: left; width: auto; font-size: 14px; line-height: 20px; color: #1e306e; text-align: center; padding: 5px 8px; background-color: #f6f9fd; border-radius: 15px; margin-left: 9px;}
+.quiz-results-features ul li:first-of-type{margin-left: 0;}
+.quiz-results-price{float: left; width: 100%; margin-top: 32px;}
+.quiz-results-price span{float: left; font-size: 24px; line-height: 30px; letter-spacing: 0.5px; color: #3c81f5; font-weight: 800;}
+.quiz-results-icon{width: 40px; height: 40px; position: absolute; bottom: 30px; right: 33px; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; justify-content: center; align-items: center; border-radius: 50%; -webkit-transition: 0.3s ease-in-out; -o-transition: 0.3s ease-in-out; transition: 0.3s ease-in-out}
+.quiz-results-item:hover .quiz-results-icon{background-color: #e5f1ff;}
+
+.quiz-results-icon figure{width: 24px; height: 24px;}
+.quiz-results-notice{float: left; width: 100%; margin-top: 42px; background-color: #e5f1ff; padding: 30px; border-radius: 5px;}
+.quiz-results-notice figure{float: left; width: 15px; margin-top: 3px;}
+.quiz-results-notice p{font-size: 14px; line-height: 20px; color: #1e306e; margin-left: 25px; }
+.discount-code .btn.large{width: 100%;}
+/*beiginning-quiz-results-item*/
+
+
+/* test-mattress-wrap*/
+.test-mattress-wrap{float: left; width: 100%; padding: 80px 0 0; background-image: linear-gradient(to left, #fbf6ff, #d2dfff); margin-top: 80px;}
+.test-mattress-container{float: left; width: 100%; box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3); background-image: linear-gradient(to left, #fbf6ff, #d2dfff); display: -webkit-flex; display: -moz-flex; display: flex; align-items: center; flex-flow: row wrap; z-index: 1; position: relative; border-radius: 10px}
+.test-mattress-wrap .reasons-book-content{float: left; width: 48.59649122807018%; padding: 100px 0 0 98px; min-height: 460px; border-radius: 10px}
+.test-mattress-wrap .reasons-book-content h2{letter-spacing: -0.3px}
+.test-mattress-wrap .reason-book-list-wrap{float: left; width: 100%; margin-top: 10px; }
+.test-mattress-wrap .reasons-book-form{float: left; width: 31.57894736842105%; padding-bottom: 44px; margin-left: 11.2280701754386%;}
+.test-mattress-wrap .reasons-book-input-wrap{float: left; width: 100%; padding: 30px;  border-radius: 5px; box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3); background-color: #ffffff; margin-top: 44px;}
+.test-mattress-wrap .reasons-book-input-row{float: left; width: 100%; margin-top: 20px;}
+.test-mattress-wrap .reasons-book-input-row:first-child{margin-top: 0;}
+.test-mattress-wrap .reasons-book-input-row input:not([type="submit"]), textarea{margin-top: 0;}
+.test-mattress-wrap .reasons-submit .large{width: 100%}
+.test-mattress-wrap .store-location-submit{float: left; margin-top: 40px;}
+.test-mattress-wrap .use-location { float: left; width: 100%; text-align: center; margin-top: 19px; }
+.test-mattress-wrap .use-location a { font-size: 18px; font-weight: 700; display: inline-block; margin: 0 auto; position: relative; color: #3c81f5; padding-left: 32px; }
+.test-mattress-wrap .use-location a:before { content: ''; width: 24px; height: 20px; background-image: url(../svgs/location-2-blue.svg); background-repeat: no-repeat; background-size: cover; background-position: center center; left: 0px; top: 2px; position: absolute; }
+.test-mattress-wrap .store-location-submit { float: left; width: 100%; margin-top: 20px; }
+.test-mattress-wrap .store-location-submit .btn.large{ float: left; width: 100%;}
+.test-mattress-wrap.lunar-bg:after{height: 80px;}
+/* test-mattress-wrap*/
+
+.quiz-result-main .footer-bottom {margin-top: 80px;}
+.quiz-result-main .large-container{max-width: 1418px;}
+.quiz-result-main .footer-bottom-nav ul li a{color: #1e306e;} 
+
+/*============================================
+Responsive for Mobile
+========================================*/
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+/*    h2{letter-spacing: -0.2px}*/
+    /*quiz-results-hero*/
+    .quiz-results-hero{margin-top: 0; padding-top: 30px;}
+    .quiz-results-hero-item{width: 91.465%; padding: 30px; border-radius: 5px;}
+    .quiz-results-hero-inner { float: left; width: 100%; z-index: 9; position: relative; }
+    .discount-code{margin-top: 24px;}
+    .discount-code .large{ width: 100%; }
+    .quiz-results-hero-item h1{letter-spacing: 0.2px;}
+    .quiz-results-hero-item .lead{margin-top: 17px;}
+    /*quiz-results-hero*/
+    
+    /*quiz-results*/
+    .quiz-results-heading .lead{font-size: 16px; line-height: 26px; color: #1e306e;}
+    .quiz-results-items{margin-top: 97px;}
+    .quiz-results-thumb{width: 100%;}
+    .quiz-results-texts{width: 100%; padding: 20px;}
+    .quiz-results-item-title .lead { float: left; font-size: 20px; line-height: 30px; margin-left: 0; width: 100%;}
+    .quiz-results-item{margin-top: 24px;}
+    .quiz-results-heading .lead { margin-top: 16px; }
+    .quiz-results-icon{bottom: 22px; right: 22px;}
+    .discount-code dfn{width: 100%; text-align: center;}
+    .not-seeing-email{position: absolute; bottom: -35px; left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); transform: translateX(-50%);}
+    .quiz-results-features ul li {margin-left: 8px;}
+    .mattress-category {margin-top: 20px}
+    .quiz-results-price {margin-top: 46px;}
+    .quiz-results-notice {margin-top: 24px}
+    .quiz-results-notice figure{margin-top: 3px;}
+    /*quiz-results*/
+    
+    /* test-mattress-wrap */
+    .test-mattress-wrap{background-image: none; padding-top: 0px; margin-top: 60px;}
+    .test-mattress-wrap .common-wrap{padding: 0}
+    .test-mattress-wrap .reasons-book-content{padding: 30px 16px 72px; width: 100%; background-image: none!important; min-height: 100%;}
+    .test-mattress-wrap .reason-book-list-wrap ul li{margin-top: 9px;}
+    .test-mattress-wrap .test-mattress-container{background-image: linear-gradient(to left, #d2dfff, #fbf6ff) !important;}
+    .test-mattress-wrap .reasons-book-mobi-bg{float: left; width: 100%; min-height: 210px; background-position: bottom center; border-top-left-radius: 10px; border-top-right-radius: 10px;}
+    .test-mattress-wrap .reasons-book-form {float: left; width: 100%; padding-bottom: 44px; margin-left: 0; padding-bottom: 0}
+    .test-mattress-wrap .reasons-book-input-wrap{padding: 29px 30px 30px; box-shadow: none; border-radius: 0; ;border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; margin-top: 0;}
+    .test-mattress-wrap .reasons-submit{margin-top: 10px;}
+    .test-mattress-wrap .store-location-submit{margin-top: 10px;}
+    .test-mattress-wrap input[type="submit"]{margin-top: 11px;}
+    /* reasons book wrap */
+    .quiz-result .test-mattress-wrap .reasons-book-mobi-bg{border-radius:0!important;}
+    .quiz-result .test-mattress-container{border-radius: 0;}
+    .quiz-result-main .footer-bottom { margin-top: 60px; }
+    .quiz-result-main .footer-bottom-right-col a:nth-child(2) { width: 42px; margin-left: 0; }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px){
+    .quiz-store-item:first-child{padding: 30px 10px;}
+}
+.quiz-store-item:nth-child(2n+2) {
+   padding: 30px 10px;
+}
+@media only screen and (min-width: 320px) and (max-width: 359px){
+    .discount-code dfn{width: 100%;}
+}
+
+/*============================================
+Responsive for Ipad
+========================================*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .quiz-results-hero-item{width: 70.465%; padding: 30px;}
+    .test-mattress-wrap .use-location a { font-size: 16px;}
+    .test-mattress-wrap .reasons-book-content{padding: 63px 0 0 73px;}
+    .test-mattress-wrap .reasons-book-form {float: none; width: 42%; padding-bottom: 44px; margin-left: 0; margin: 0 auto; }
+}

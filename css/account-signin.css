@@ -1,0 +1,85 @@
+.account-wrap{float: left; width: 100%; min-height: 260px; height: 100%; background-image: linear-gradient(to left, #d2dfff, #fbf6ff); padding-top: 80px; text-align: center;}
+.account-wrap h1{letter-spacing: 0}
+
+.account-signin-wrap{float: left; width: 100%; margin-top: 40px; padding-bottom: 60px;}
+.account-signin-wrap .common-wrap{max-width: 790px;}
+.account-signin-inner{float: left; width: 100%;}
+.account-signin-item-wrap{float: left; width: 100%; max-width: 700px; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap; justify-content: space-between;}
+.account-signin-item{float: left; width: 44.28571428571429%;}
+.account-signin-heading{float: left; width: 100%;}
+.account-signin-heading p{margin-top: 20px;}
+.account-log-row-wrap{float: left; width: 100%}
+.account-log-row{float: left; width: 100%; margin-top: 20px; position: relative;}
+.account-signin-item:nth-child(1) .account-log-row:nth-child(3){margin-top: 18px;}
+.account-log-row a{font-size: 14px; line-height: 20px; letter-spacing: 0; font-weight: 400; color: #3c81f5; margin-top: 10px;}
+.account-log-row a:hover{text-decoration: underline;}
+.account-log-row input:not([type="submit"]), textarea{padding: 15px 46px 15px 16px;}
+.account-log-row input, textarea{margin-top: 0;}
+.account-log-row input[type="submit"].large{width: 100%;}
+.account-log-row input[type="submit"].pastel-blue{background-color: #e5f1ff; color: #3c81f5; border: 1px solid transparent; text-transform: capitalize;}
+.account-log-row:after{content: ''; position: absolute; top: 18px; right: 18px; width: 12px; height: 14px; background-image: url(../img/sign-in/person.png); background-size: cover; background-repeat: no-repeat; background-position: center center;}
+.account-log-row:nth-child(3):after{background-image: url(../img/sign-in/massage.png); width: 14px; height: 11px; top: 20px; right: 17px;}
+.account-log-row:nth-child(5):after{background-image: url(../img/sign-in/eye.png); width: 16px; height: 12px; top: 19px; right: 16px;}
+.account-signin-item:first-child .account-log-row:after{background-image: url(../img/sign-in/massage.png); width: 14px; height: 11px; top: 20px; right: 17px;}
+.account-signin-item:first-child .account-log-row:nth-child(2):after{background-image: url(../img/sign-in/eye.png); width: 16px; height: 12px;}
+.account-signin-item:first-child .account-log-row:nth-child(3):after, .account-log-row:nth-child(4):after, .account-log-row:nth-child(6):after, .account-log-row:nth-child(7):after{display: none;}
+.account-log-row input[type="submit"].pastel-blue:hover{border: solid 1px #3c81f5;}
+.account-log-row dfn {opacity: 0; position: absolute; bottom: -18px; left: 5px; font-size: 14px; line-height: 20px; color: #ec4760; }
+
+.intl-tel-input { position: relative; display: inline-block; float: left; width: 100%;}
+.intl-tel-input .flag-dropdown {width: 100%; max-width: 85px; background-color: #e5f1ff; border: none; border-right: 0; top: 1px; bottom: 1px; padding: 0; left: 1px;}
+.intl-tel-input .selected-flag { z-index: 1; position: relative; width: 100%; height: 100%; padding: 0; }
+.intl-tel-input .selected-flag .arrow.up { border: none; }
+.intl-tel-input input[type=tel]{padding-left: 101px;}
+.intl-tel-input .selected-flag .iti-flag {left: auto; right: 16px; top: 50%; margin-top: 0; transform: translateY(-50%); }
+.intl-tel-input .flag-dropdown:hover .selected-flag {  background-color: #e5f1ff;  }
+.intl-tel-input .selected-flag .arrow{left: auto}
+.intl-tel-input .selected-flag .arrow { position: relative; top: 0; margin-top: 0; left: auto; width: 9px; height: 0; border-left: 0; border-right: 0; border-top: 0;  border-radius: 92px; background-image: url(../svgs/contact/chevron-down.svg); width: 16px; height: 16px; background-size: cover; background-repeat: no-repeat; background-position: center center; }
+.intl-tel-input .country-list{max-width: 300px; width: 300px;}
+.intl-tel-input .country-list .iti-flag{display: none}
+.intl-tel-input .country-list .divider, preferred{display: none;}
+.iti-flag{display: none}
+.intl-tel-input.separate-dial-code .selected-dial-code{padding-left: 0; font-size: 16px; line-height: 20px; padding-top: 3px; font-weight: 700; padding-left: 16px;}
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 .selected-flag { width: 85px; outline: none}
+.intl-tel-input.separate-dial-code .selected-flag {background-color: #e5f1ff; display: block;  padding: 10px 0; outline: none}
+.intl-tel-input.allow-dropdown .flag-container, .intl-tel-input.separate-dial-code .flag-container {float: left; width: 100%; }
+.intl-tel-input {float: left; width: 100%; }
+.intl-tel-input .country-list.dropup { bottom: -10px; margin-bottom: -1px; position: relative; float: left; width: 100%; }
+.intl-tel-input .country-list { position: relative; overflow-x: hidden}
+.intl-tel-input .selected-flag .iti-arrow{content: ''; position: absolute; border: none; left: auto; top: 18px; width: 16px;height: 16px; background-position: center center; background-repeat: no-repeat; background-size: cover; background-image: url(../svgs/contact/chevron-down.svg); }
+.intl-tel-input.allow-dropdown .flag-container:hover .selected-flag { background-color: #e5f1ff; }
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel]{padding-left: 101px;}
+
+.account-addresses-checkbox-wrap{float: left; width: 100%; padding: 14px 0 16px;}
+.checked { display: block; position: relative; padding-left: 31px; cursor: pointer; margin-bottom: 0; font-size: 16px; line-height: 20px;}
+.checked dfn{font-size: 16px; line-height: 20px; color: #a5acc6; font-weight: 400; padding-left: 5px;}
+.checked input { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0; }
+.checkmark { position: absolute; top: 0px; left: 0; height: 22px; width: 22px; background-color: transparent; border: 2px solid rgba(165, 172, 198, 0.5); transition: .3s ease-in-out; border-radius: 1px}
+label.checked:hover .checkmark { border: 2px solid #1e306e;}
+.checked input:checked ~ .checkmark {background-color: #1e306e; border: 2px solid #1e306e; border-radius: 1px;}
+.checkmark:after { content: ""; position: absolute; display: none; }
+.checked input:checked ~ .checkmark:after { display: block; }
+.checked .checkmark:after {left: 6px; top: 1px; width: 4px; height: 10px; border: solid white; border-width: 0 2px 2px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); border-radius: 0;}
+
+.account-log-bottom{display: none;}
+.account-log-bottom{float: left; width: 100%; position: relative; font-size: 14px; line-height: 20px; color: #616e99; text-align: center; margin: 27px 0;}
+.account-log-bottom:before, .account-log-bottom:after{content: ''; width: 44%; height: 1px; position: absolute; top: 50%; left: 0;  background-color: #dce1e6}
+.account-log-bottom:after{right: 0; left: auto;}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    input[type="text"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+    
+    
+    .account-signin-item{width: 100%;}
+    .account-wrap {min-height: 138px; padding-top: 30px;}
+    .account-wrap h1 {letter-spacing: -0.5px; }
+    .account-signin-wrap {margin-top: 24px;}
+    .account-log-bottom{display: block;}
+    .account-log-row input[type="submit"].pastel-blue{text-transform: none;}
+    
+}
+
+
+
+
+

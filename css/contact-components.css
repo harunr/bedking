@@ -1,0 +1,161 @@
+
+/* contact-section */
+.contact-wrap {background-color: #f6f9fd;padding: 82px 0 122px;}
+.contact-wrap .common-wrap{max-width: 984px}
+.contact-content-inner{float: left; width:100%}
+.contact-content-inner h1{text-align: center;letter-spacing: -.3px;}
+.contact-content-inner p{font-size: 20px;line-height: 30px;text-align: center;color:#616e99;margin-top: 20px}
+.contact-info{margin: 0 auto;max-width: 556px;}
+.contact-info-item{float: left;width:29.67625899280576%;;margin:0 2.697841726618705%;padding-top: 40px}
+.contact-info-item:nth-child(3n+1){margin-left: 0}
+.contact-info-item:nth-child(3n+3){margin-right: 0;}
+.contact-info-item figure{width: 40px;height: 40px;margin: auto}
+.contact-info-text{float: left;width: 100%;text-align: center;margin-top: 20px}
+.contact-info-text h6{letter-spacing: 0}
+.contact-info-text a{font-size: 14px; font-family: 'Muli', sans-serif;font-weight: 400; line-height: 20px;color: #3c81f5;margin-top: 10px; transition: .3s ease-in-out}
+.contact-info-text a:hover{text-decoration: underline;}
+
+
+.contact-customer {float: left;width: 100%}
+.contact-customer .common-wrap{max-width: 728px}
+.customer-care-item-wrap{float: left;width: 100%}
+.customer-care-details{float: right; width: 100%; max-width: 584px; display: flex; margin-top: 37px; justify-content: space-between;}
+.customer-care-details:nth-child(2){margin-top: 80px}
+.customer-care-profile{ float: left; width: 33.905%; background-color: #f6f9fd; border-radius: 50%; height: 198px; margin-top: 0; display: flex; align-items: center;}
+.customer-care-profile figure {width: 48px; height: 48px; margin: 0 auto;}
+.customer-care-profile-item {float: left; width: 56.165%; margin-top: 16px;;}
+.customer-care-profile-item p{font-size: 16px;line-height: 26px;color:#616e99;padding-bottom: 13px; margin-top: 5px;}
+.customer-care-profile-item a {font-size: 16px;line-height: 26px;color:#3c81f5;display: inline-block;position: relative;padding-left: 30px; margin-top: 7px;}
+.customer-care-profile-item a:hover{text-decoration: underline;}
+.customer-care-profile-item a:before {content: '';position: absolute;background-image: url(../img/contact/outline-phone@2x.png);background-repeat: no-repeat;background-position: center center;background-size: 16px 16px;width: 16px; height: 16px; top: 7px; left: 0px;}
+
+.customer-care-profile-item a:nth-child(4):before{background-image: url(../svgs/contact/email.svg);    top: 7px;}
+.customer-care-profile-item span {display: block;position: relative;padding-left: 32px; margin-top: 10px;}
+.customer-care-profile-item span:before {content: '';position: absolute;background-image: url(../svgs/contact/time.svg);background-repeat: no-repeat;background-position: center center;background-size: 15px 15px;width: 15px;height: 15px;top:7px;left: 0px}
+
+.enquiry-call-to-action{float: left;width: 100%}
+.enquiry-call-to-action .common-wrap{max-width:986px}
+.enquiry-call-to-action-wrap{float: right;width: 100%;max-width: 848px; text-align: center; margin-top: 83px;}
+.enquiry-call-to-action-wrap h3 { font-size: 35px; line-height: 45px; letter-spacing: -0.3px; font-weight: 700; }
+.enquiry-call-to-action-inner{float: left;width: 100%}
+.enquiry-call-to-action-left{float: left;width:  42.454%;text-align: left;    margin-top: 40px;}
+.enquiry-call-to-action-item{float: left; width: 100%; margin-top: 40px; }
+.enquiry-call-to-action-item:nth-child(2){margin-top: 20px; }
+.enquiry-call-to-action-item a{font-size: 16px;line-height: 26px;color:#3c81f5;display: inline-block; position: relative; padding-left: 30px; margin-top: 8px;}
+.enquiry-call-to-action-item a:hover{text-decoration: underline;}
+.enquiry-call-to-action-item a:before{content: '';position: absolute;background-image: url(../img/contact/outline-phone@2x.png);background-repeat: no-repeat;background-position: center center;background-size: 16px 16px;width: 16px;height: 16px;top: 6px;left: 0px}
+.enquiry-call-to-action-item a:nth-child(3):before{background-image: url(../svgs/contact/email.svg);}
+.enquiry-call-to-action-item:nth-child(5) {padding-bottom: 38px; }
+.enquiry-call-to-action-item:nth-child(6) {padding-top: 43px; margin: 0; position: relative; }
+.enquiry-call-to-action-item:nth-child(6):before {content: '';border-top: 1px solid rgba(165, 172, 198, 0.5);width: 100%;position: absolute;top: 0;}
+
+.enquiry-call-to-action-item:nth-child(6).enquiry-call-to-action-item a:nth-child(3):before{background-image: url(../img/contact/outline-phone@2x.png)}
+.enquiry-call-to-action-item:nth-child(6).enquiry-call-to-action-item a:nth-child(4):before{background-image: url(../svgs/contact/email.svg)!important}
+
+.enquiry-call-to-action-right{float: right; width:42.454%; text-align: left;margin-top: 40px; box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3);padding: 30px; border-radius: 5px;}
+.enquiry-call-form{float: left;width: 100%}
+ .submit {float: left; width: 100%; margin-top: 20px;}
+.input-wraper-item{float: left;width: 100%}
+.enquiry-call-form .selection {float: left; width: 100%; height: 50px; font-size: 16px; line-height: 20px; font-family: 'Muli', sans-serif; font-weight: 400; color: #1e306e; font-style: normal; border: 1px solid rgba(165, 172, 198, 0.5); background-color: #ffffff; border-radius: 3px; padding: 15px 16px; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; transition: all .4s ease-in-out; }
+.enquiry-call-form textarea {min-height: 128px}/*
+.enquiry-call-form label{ margin-bottom: 3px;}*/
+.enquiry-call-form .btn.large{width: 100%; text-transform: capitalize;}
+
+input:not([type="submit"]){margin-top: 0;}
+
+/* telephone style */
+.iti-flag{display: none}
+.intl-tel-input.separate-dial-code .selected-dial-code{padding-left: 0; font-size: 16px; line-height: 20px; padding-top: 3px; font-weight: 700; padding-left: 16px;}
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 .selected-flag { width: 85px; outline: none}
+.intl-tel-input.separate-dial-code .selected-flag {background-color: #e5f1ff; display: block;  padding: 10px 0; outline: none}
+.intl-tel-input.allow-dropdown .flag-container, .intl-tel-input.separate-dial-code .flag-container {float: left; width: 100%; }
+.intl-tel-input {float: left; width: 100%; }
+.intl-tel-input .country-list.dropup { bottom: -10px; margin-bottom: -1px; position: relative; float: left; width: 100%; }
+.intl-tel-input .country-list { position: relative; overflow-x: hidden}
+.intl-tel-input .selected-flag .iti-arrow{content: ''; position: absolute; border: none; left: auto; top: 18px; width: 16px;height: 16px; background-position: center center; background-repeat: no-repeat; background-size: cover; background-image: url(../svgs/contact/chevron-down.svg); }
+.intl-tel-input.allow-dropdown .flag-container:hover .selected-flag { background-color: #e5f1ff; }
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel]{padding-left: 101px;}
+
+/* telephone style */
+
+
+.input-row { margin-top: 20px; }
+/* end-contact-section */
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	
+	.contact-wrap{padding: 30px 0 37px;}
+	.contact-info-item{width: 100%;width: 100%; padding: 24px 0 0; margin: 0;}
+	.contact-content-inner h1 {text-align: center; letter-spacing: -.8px;}
+	.contact-content-inner p{font-size: 18px;margin-top: 32px;line-height: 26px;}
+	.customer-care-details{flex-flow:row wrap;margin-top: 13px;}
+	.customer-care-profile { float: none; width: 99px; background-color: #f6f9fd; border-radius: 50%; height: 99px; margin-top: 0; display: flex; align-items: center; margin: 0 auto;}
+	.customer-care-profile-item{width: 100%;margin-top: 19px;}
+	.customer-care-profile-item h4{text-align: center;font-size: 18px; line-height: 28px;}
+	.customer-care-profile-item p{text-align: center}
+	.customer-care-profile-item a{margin-top: 7px;}
+	.customer-care-profile-item a:before{top: 4px}
+	.customer-care-profile-item a:nth-child(4):before{left: 0;top: 6px;}
+	.customer-care-profile-item span:before{top: 4px;}
+	.customer-care-profile figure{width: 24px;height: 24px;margin: 0 auto}
+	.customer-care-details:nth-child(2){margin-top: 60px;}
+	.customer-care-details:nth-child(2) .customer-care-profile-item p:nth-child(2){margin-top: 16px;}
+	.contact-info-text{margin-top: 16px}
+	.contact-info-text:first-child{margin-top: 18px}
+	
+	.enquiry-call-to-action-wrap{margin-top: 48px;}
+	.enquiry-call-to-action-wrap h3{margin-top: 60px;letter-spacing: 0;font-size: 28px;
+    line-height: 36px;margin-top: 9px;}
+    .enquiry-call-to-action-inner { display: flex; flex-flow: row wrap; margin-top: 25px; }
+    .enquiry-call-to-action-left{width: 100%;order: 2;margin-top: 62px; padding: 0 16px;}
+	.enquiry-call-to-action-left h4{font-size: 18px; line-height: 28px;}
+	.enquiry-call-to-action-item{margin-top: 22px;}
+    .enquiry-call-to-action-item:nth-child(5) {padding-bottom: 23px;}
+	.enquiry-call-to-action-item:nth-child(6){padding-top: 25px;}
+	.enquiry-call-to-action-item:nth-child(6).enquiry-call-to-action-item h4:first-child{margin-top:2px}
+	.enquiry-call-to-action-item p{margin-top: 2px;}
+    .enquiry-call-to-action-item:nth-child(6) p{margin-top: 22px;}
+	.enquiry-call-to-action-item a{margin-top: 8px;}
+	.enquiry-call-to-action-item a:before{top: 5px;}
+    .enquiry-call-to-action-right{width: 100%;order: 1; margin-top: 2px;padding: 30px; box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3);}
+	.enquiry-call-form label{margin-bottom: 5px;}
+	.enquiry-call-form input:not([type="submit"]), textarea{margin-top: 5px}
+	.submit{margin-top: 10px;}
+	.enquiry-call-form .btn.large{width: 100%; font-size: 18px; line-height: 18px;letter-spacing: 0; text-transform: capitalize;}
+    
+    
+    
+    .input-row { margin-top: 20px; }
+    .intl-tel-input{margin-top: 4px;}
+    .textarea{margin-top: 14px;}
+    .enquiry-call-to-action .common-wrap{padding: 0}
+    .enquiry-call-to-action .common-wrap{padding: 0}
+    .sign-up-wrap{margin-top: 60px;}
+}
+	
+
+
+
+@media only screen and (max-width: 767px) and (min-width: 480px){
+    
+    
+    .lunar-bg:after{height: 26px; }
+}
+   
+
+
+@media only screen and (min-width:768px) and (max-width: 991px) {
+
+    .enquiry-call-to-action-right {float: right; width: 53%;}
+}
+
+
+
+@media only screen and (min-width:992px) and (max-width: 1024px) {
+
+    .enquiry-call-to-action-right {float: right; width: 53%;}
+}

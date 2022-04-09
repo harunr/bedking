@@ -1,0 +1,105 @@
+
+/* store-location-section */
+.store-location-wrap{float: left; width: 100%; background-color: #f6f9fd; padding: 83px 0 0px;}
+.store-location-inner{float: left;width: 100%}
+.store-location-inner h1{text-align:center;letter-spacing: 0;}
+.store-location-inner p{font-size: 20px; line-height: 30px; text-align: center; color: #616e99; margin-top: 18px;}
+
+.store-location-info{float: left;width: 100%; margin-top: 40px;    z-index: 9;
+    position: relative;}
+.store-location-section .reasons-book-form {float: left; width: 31.57894736842105%;margin-right: 5.570175438596491%}
+.store-location-section .reasons-book-input-row { float: left; width: 100%; margin-top: 20px;}
+.store-location-section .reasons-book-input-row:first-child{margin-top: 0}
+.store-location-section .selection{float: left; width: 100%; height: 50px; font-size: 16px; line-height: 20px; font-family: 'Muli', sans-serif; font-weight: 400; color: #a5acc6;; font-style: normal; border: 1px solid rgba(165, 172, 198, 0.5); background-color: #ffffff; border-radius: 3px; padding: 15px 16px; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; transition: all .4s ease-in-out;}
+.store-location-section.submit {float: left; width: 100%}
+.store-location-section .btn.large{float: left; width: 100%}
+.use-location{float: left;width: 100%;text-align: center;margin-top: 19px}
+.use-location a{font-size: 18px; font-weight: 700; display: inline-block; margin: 0 auto; position: relative; color: #3c81f5; padding-left: 32px;}
+.use-location a:before{content: ''; width: 24px; height: 20px; background-image: url(../svgs/location-2-blue.svg); background-repeat: no-repeat; background-size: cover; background-position: center center; left: 0px; top: 2px; position: absolute;}
+.store-location-section .reasons-book-input-wrap { float: left; width: 100%; padding: 30px; border-radius: 5px; box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3); background-color: #ffffff;}
+.store-location-map{float: left;width: 57.28070175438596%;margin-left: 5.570175438596491%;box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2), 0 -11px 6px -10px rgba(0, 0, 0, 0.05);}
+
+.find-store-location-below{float: left;width: 100%}
+.find-store-location-details{float: left;width: 100%; margin-top: 37px;}
+.find-store-location-details h2{letter-spacing: -.2px;}
+.find-store-location-inner{float: left;width: 100%}
+.find-store-location-info{float: left;width: 100%;margin-top: 45px;}
+.find-store-location-info:nth-child(2) .find-store-location-info-item-wrap{margin-top: 15px}
+.find-store-location-info:nth-child(2) .find-store-location-info-item-wrap .find-store-location-info-item{padding-bottom: 30px}
+.find-store-location-info:nth-child(3){margin-top: 48px}
+.find-store-location-info:nth-child(3) .find-store-location-info-item-wrap {margin-top: 16px}
+
+
+.find-store-location-info h4{position: relative; padding-left: 56px;}
+.find-store-location-info h4:before{content: '';position: absolute;background-image: url(../svgs/store-location/bed%20coin.svg);width: 29px;height: 29px;background-repeat: no-repeat;background-position:center center;background-size: cover;top:0; left:6px; z-index: 1}
+.find-store-location-info h4:after{content: '';position: absolute; width: 36px; height: 36px; background-color: #f6f9fd; border-radius: 32px; top:-3px; left:2px}
+.find-store-location-info-item-wrap{float: left; width: 100%; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap;}
+.find-store-location-info-item{float: left; width: 48.684211%; border: 1px solid rgba(165, 172, 198, 0.5); padding: 28px; margin: 30px 1.315789473684211% 0; border-radius: 5px;}
+.find-store-location-info-item:nth-child(2n+1){margin-left: 0}
+.find-store-location-info-item:nth-child(2n+2){margin-right: 0}
+.find-store-location-info-item h6{font-weight: 700;letter-spacing: 0px;}
+.find-store-location-info-item a {color: #3c81f5; margin-top: 11px; position: relative; padding-left: 30px;}
+.find-store-location-info-item a:before{content: '';position: absolute;width: 16px;height: 16px;background-image: url(../svgs/store-location/outline-phone-new-blue.svg); background-repeat: no-repeat;background-size: 16px 16px;background-position: center center;left: 0; bottom: 5px;}
+ address{margin-top: 10px;position: relative;padding-left: 30px;}
+address:before{content: '';position: absolute;width: 13px;height: 16px;background-image: url(../svgs/store-location/pin.svg);background-repeat: no-repeat;background-size: 13px 16px;background-position: center center;left: 0; top:4px; }
+.store-btn{display: block; margin-top:8px; padding-left: 32px;}
+.store-location-section .btn.small{width: 178px}
+
+ .find-store-location-info-item .store-btn a{padding-left: 0}
+ .find-store-location-info-item .store-btn a:before{display: none}
+
+
+.store-location-info .selectric .label { height: 50px; font-size: 16px; line-height: 29px; color: #a5acc6; text-align: left; padding: 10px 0; font-family: 'Muli', sans-serif; font-weight: 400; margin-top: 0;}
+.store-location-submit{float: left; width: 100%; margin-top: 20px;}
+
+/* end store-location-section */
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	
+	.store-location-wrap{padding: 31px 0 0px;}
+	.store-location-wrap .common-wrap{padding:0}
+	.store-location-inner p{font-size: 18px; line-height: 28px;margin-top: 17px;}
+	.store-location-info{margin-top: 24px;}
+	.store-location-section .reasons-book-form{width: 100%}
+	.store-location-map{width: 100%;margin-left: 0;margin-top: 24px;padding: 0 16px;}
+	.find-store-location-details{margin-top: 24px}
+	.find-store-location-info-item-wrap {margin-top: 4px}
+	.find-store-location-info{margin-top: 24px}
+	.find-store-location-info h4 {padding-left: 17%;margin-top: 4px;}
+	.find-store-location-info-item{width: 100%;margin: 24px 0 0;}
+	
+	.find-store-location-info:nth-child(2){margin-top: 61px;}
+	.find-store-location-info:nth-child(2) .find-store-location-info-item-wrap { margin-top: 4px;}
+	.find-store-location-info:nth-child(2) .find-store-location-info-item-wrap .find-store-location-info-item {padding-bottom: 28px;}
+	.find-store-location-info:nth-child(3) { margin-top: 62px;}
+	.find-store-location-info:nth-child(3) .find-store-location-info-item-wrap { margin-top: 5px;}
+
+    .store-location-submit{margin-top: 10px;}
+	
+	
+	}
+	
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+	
+    .store-location-section .reasons-book-form {width: 36%; margin-right: 2%; }
+    .store-location-map{width: 60%; margin-left: 2%;}
+    .store-location-section .reasons-book-input-wrap {padding: 20px;}
+	
+	
+	}
+	
+
+@media only screen and (min-width: 991px) and (max-width: 1024px) {
+	
+    .store-location-section .reasons-book-form { float: left; width: 35.578947%; margin-right: 1.570175%; }
+	
+	
+	}
+	
+
+

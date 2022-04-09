@@ -1,0 +1,136 @@
+.mattresses-hero-text-wrap{float: left; width: 100%; padding-top: 60px; background-image: linear-gradient(to right, #d2dfff, #fbf6ff); padding-bottom: 126px;}
+.mattresses-hero-text-wrap .common-wrap{max-width: 984px;}
+.mattresses-hero-text-wrap figure{max-width: 64px; margin:  0 auto;}
+.mattresses-hero-text-wrap h1 {margin-top: 22px; text-align: center; letter-spacing: 0; }
+.mattresses-hero-text-wrap p{font-size: 20px; line-height: 30px; text-align: center; color: #616e99; margin-top: 20px;}
+.mattresses-hero-text-btn{float: left; width: 100%; margin-top: 40px; text-align: center;}
+.mattresses-hero-text-btn .large{width: 240px;}
+
+/*.category-content .find-right-mattress-content h2 { letter-spacing: -0.3px; margin-top: -4px; }*/
+.category-content .find-right-mattress-thumb {width: 48.7%; }
+.category-content .find-right-mattress-content {margin-left: 30px;}
+
+.category-content .find-right-mattress-wrap{background-image: none; padding-bottom: 20px;}
+
+
+.browse-mattresses-size{float: left; width: 100%; padding-top: 100px; padding-bottom: 79px;}
+.browse-mattresses-size .common-wrap { max-width: 1180px; padding: 0 25px 0 20px; }
+.browse-mattresses-size h3{text-align: center; letter-spacing: -0.99px;}
+.browse-mattresses-size-item-wrap{float: left; width: 100%; margin-top: 40px; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap; justify-content: space-between;}
+.browse-mattresses-size-item{float: left; width: 14.44933920704846%; background-color: #ffffff; box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.1); padding: 45px 19px 13px 20px; border-radius: 5px;}
+.browse-mattresses-size-item figure{max-width: 64px; margin: 0 auto;}
+.mattresses-size-item-content{float: left; width: 100%; margin-top: 22px;}
+.mattresses-size-item-content dfn{background-color: #f6f9fd; display: block; font-size: 14px; line-height: 20px; text-align: center; border-radius: 15px; color: #616e99; padding: 5px 8px;}
+.mattresses-size-item-content h6{font-size: 18px;line-height: 23px; font-weight: 700; letter-spacing: 0; text-align: center; margin-top: 13px;}
+.browse-sizes-btn{float: left; width: 100%; margin-top: 69px; text-align: center;}
+.browse-sizes-btn a{text-align: center;}
+
+.browse-mattresses-type-wrap{float: left; width: 100%; padding-top: 82px; padding-bottom: 80px; background-color: #f6f9fd;}
+.browse-mattresses-type-wrap h3 { text-align: center; letter-spacing: -.7px; }
+.mattresses-type-item-wrap{float: left; width: 100%; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap;}
+.mattresses-type-item{float: left; width: 31.57894736842105%; margin: 40px 1.315789473684211% 0; background-color: #ffffff; padding: 20px 20px 18px; border-radius: 5px; box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.1);} 
+.mattresses-type-item:nth-child(3n+1){margin-left: 0;} 
+.mattresses-type-item:nth-child(3n+3){margin-right: 0;} 
+.mattresses-type-item figure{float: left; max-width: 40px;}
+.mattresses-type-content{float: left; width: 100%; margin-top: 10px;}
+.mattresses-type-content a{display: inline-block; font-size: 14px; line-height: 20px; padding: 5px 9px; color: #1e306e;background-color: #f6f9fd; border-radius: 15px; float: left; width: auto; margin-right: 4%; margin-left: 1%; margin-top: 8px; }
+.mattresses-type-content p{font-size: 14px; line-height: 20px; color: #616e99; display: inline-block; margin-top: 8px;}
+.browse-type-btn, .browse-mattresses-btn{float: left; width: 100%; margin-top: 40px; text-align: center;}
+.browse-type-btn a, .browse-mattresses-btn a{text-align: center;}
+
+.info-wrap h3 { text-align: center; letter-spacing: -0.6px}
+.why-correct-mattress-item:first-child {margin-top: 0; padding-top: 15px; padding-bottom: 30px;}
+.why-correct-mattress-item:nth-child(3){padding-top: 30px; padding-bottom: 24px;}
+.why-correct-mattress-item:nth-child(3) .why-correct-mattress-content { padding-bottom: 38px; }
+.why-correct-mattress-content{padding-bottom: 43px;}
+
+
+.beds-blog-thumb{border-radius: 10px;}
+.beds-blog-thumb img{border-radius: 10px;}
+
+.sign-up-wrap{margin-top: 88px;}
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    input[type="text"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+    
+    .category-content .find-right-mattress-thumb{width: 100%}
+    .mattresses-hero-text-wrap{padding-top: 32px; padding-bottom: 59px;}
+    .mattresses-hero-text-wrap h1{margin-top: 20px;}
+    .mattresses-hero-text-wrap p{font-size: 18px; line-height: 28px; margin-top: 16px;}
+    .mattresses-hero-text-btn .large{width: 100%;}
+    .category-content .find-right-mattress-wrap{padding-top: 60px;}
+    .mattresses-hero-text-btn{margin-top: 23px;}
+    
+    .category-content .find-right-mattress-content{padding-left: 0;}
+    .find-mattress-btn{margin-top: 16px;}
+    .find-right-mattress-wrap{height: 100%}
+
+    .browse-mattresses-size{padding-top: 42px; padding-bottom: 60px;}
+    .browse-mattresses-size h3{letter-spacing: -.6px;}
+    .browse-mattresses-size-item-wrap{margin-top: 6px;}
+    .browse-mattresses-size-item{width: 47.5609756097561%; padding: 37px 15px 10px; margin-top: 16px;}
+    .browse-mattresses-size .common-wrap{padding: 0 16px;}
+    .mattresses-size-item-content{margin-top: 10px;}
+    .mattresses-size-item-content h6{margin-top: 15px;}
+    .mattresses-size-item-content em{display: none}
+    .browse-sizes-btn{margin-top: 24px;}
+    
+    .browse-mattresses-type-wrap{padding-top: 61px; padding-bottom: 60px;}
+    .mattresses-type-item {width: 100%; margin: 23px 0 0;}
+    .mattresses-type-content a{margin-right: 2.3%; margin-left: 0;}
+    .browse-type-btn, .browse-mattresses-btn {margin-top: 24px;}
+    .info-wrap{padding: 0}
+    .why-correct-mattress {padding-top: 0px;}
+    .why-correct-mattress-item-wrap {margin-top: 46px;}
+    .why-correct-mattress-content{padding-bottom: 0;}
+    .why-correct-mattress-item{margin-top: 32px;}
+    .why-correct-mattress-item:nth-child(3) .why-correct-mattress-content { padding-bottom: 1px; }
+    .why-correct-mattress-item:nth-child(3){padding-bottom: 29px;}
+    .sign-up-wrap {margin-top: 61px;}
+    
+
+    
+    
+    
+    
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    
+    .mattresses-hero-text-wrap.lunar-bg.lunar-bg:after {height: 23px;}
+  
+}
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px){ input[type="text"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+    
+    .mattresses-hero-text-wrap{padding-top: 100px;}
+    .browse-mattresses-size-item{width: 31%; margin-top: 20px;}
+    .category-content .find-right-mattress-thumb{width: 48%}
+    .category-content .find-right-mattress-content{width: 50%; margin-left: 10px;}
+    .browse-mattresses-size{padding: 40px 0}
+    .mattresses-type-content a {font-size: 10px; line-height: 20px; padding: 5px 8px; margin-right: 2%; margin-left: 0%;}
+    .mattresses-type-content p { font-size: 10px; line-height: 18px;}
+    .mattresses-type-item{width: 32%; margin: 20px 1% 0; }
+    .why-correct-mattress-item{margin-top: 20px; padding: 20px 0;}
+    .why-correct-mattress-item:first-child{padding-bottom: 0;}
+    .why-correct-mattress-item{padding: 0}
+    .why-correct-mattress-item:nth-child(3){padding: 0}
+    .why-correct-mattress-content{width: 45%; padding-bottom: 0;}
+    
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px){ input[type="text"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+    
+    .browse-mattresses-size-item{width: 30%; margin-top: 30px;}
+    .browse-mattresses-size-item:nth-child(-n+3){margin-top: 0;}
+}

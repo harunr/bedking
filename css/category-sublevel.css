@@ -1,0 +1,228 @@
+.mattresses-text-wrap{float: left; width: 100%; padding-top: 83px;}
+.mattresses-text-wrap .common-wrap{max-width: 986px; text-align: center;}
+.mattresses-text-wrap  .lead{margin-top: 20px;}
+
+
+
+
+
+
+.mattresses-category-wrap{float: left; width: 100%; padding-top: 48px;}
+.mattresses-category-wrap .common-wrap{max-width: 1180px}
+.mattresses-category-inner{float: left; width: 100%;}
+.mattresses-category-accordion-heading{float: left; width: 100%;}
+.filter-wrap{float: left; width: 100%; max-width: 262px;}
+.filter-wrap h4{font-size: 18px; line-height: 23px; color: #3c81f5; font-weight: 700; float: left; width: 50%; text-align: left; padding-left: 32px; position: relative; cursor: pointer; user-select: none;} 
+.filter-wrap h4:before{content: ''; position: absolute; top: -1px; left: 0; background-image: url(../svgs/category-sublevel/filters.svg); background-size: cover; background-repeat: no-repeat; background-position: center center; width: 24px; height: 24px;} 
+.filter-wrap span{font-size: 14px; line-height: 20px; color: #3c81f5; font-weight: 400; float: left; width: 50%; text-align: right; margin-top: 2px; cursor: pointer}
+.best-value-wrap{float: right; width: 100%; max-width: 154px; margin-top: 2px;}
+.best-value-wrap span{font-size: 14px; line-height: 20px; color: #1e306e; font-weight: 400;float: left;}
+.best-value-wrap select{font-size: 14px; line-height: 20px; color: #3c81f5; font-weight: 700; border: none; background-color: transparent; }
+.best-value-wrap .selectric-wrapper{float: left; width: 65%; padding-left: 5px;}
+.best-value-wrap .selectric{ height: auto; padding: 0; border: none; }
+.best-value-wrap .selectric .label{padding: 0; height: auto; font-size: 14px; line-height: 20px; color: #3c81f5; font-weight: 700;}
+.best-value-wrap .selectric .button {width: 11px; height: 7px;}
+.best-value-wrap .selectric:hover{background-color: transparent}
+.best-value-wrap .selectric:after{background-image: url(../svgs/category-sublevel/dropdown.svg); width: 11px; height: 5px; background-size: 11px 7px; right: 2px; top: 9px;}
+.best-value-wrap .selectric-open .selectric-items{width: 160px !important; top: 29px; left: -57px;}
+.best-value-wrap .selectric-items li{padding: 14px 28px;}
+.mattresses-category-accordion-wrap{float: left; width: 100%; margin-top: 24px;}
+.mattresses-category-accordion-content{float: left; width: 22.80701754385965%;}
+.mattresses-accordion{float: left; width: 100%; padding: 12px 8px 12px 16px; background-color: #f6f9fd; border-radius: 5px; margin-top: 10px;}
+.mattresses-accordion h6{font-weight: 700; letter-spacing: 0; position: relative; cursor: pointer; user-select: none}
+.mattresses-accordion-hide{float: left; width: 100%; padding-left: 5px; padding-top: 8px; display: none}
+.frequently-active{display: block; position: relative;}
+.mattresses-accordion h6:after{content: ''; position: absolute; top: 0; right: 0; background-image: url(../svgs/category-sublevel/chevron-down.svg); width: 24px; height: 24px; background-size: 24px 24px; background-position: center center; background-repeat: no-repeat; -webkit-transition: .5s ease-in-out; -moz-transition: .5s ease-in-out; transition: .5s ease-in-out; }
+.frequently-active > h6:after{/*background-image: url(../svgs/category-sublevel/chevron-up.svg);*/ transform: rotate(180deg)}
+
+
+.checked { display: block; position: relative; padding-left: 31px; margin-top: 10px;cursor: pointer; margin-bottom: 0; font-size: 16px; line-height: 26px;}
+.checked dfn{font-size: 16px; line-height: 20px; color: #a5acc6; font-weight: 400; padding-left: 5px;}
+.checked input { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0; }
+.checkmark { position: absolute; top: 2px; left: 0; height: 22px; width: 22px; background-color: transparent; border: 1px solid rgba(165, 172, 198, 0.5); transition: .3s ease-in-out; border-radius: 1px}
+label.checked:hover .checkmark { border: 1px solid #1e306e;}
+.checked input:checked ~ .checkmark {background-color: #1e306e; border: 1px solid #1e306e; border-radius: 1px;}
+.checkmark:after { content: ""; position: absolute; display: none; }
+.checked input:checked ~ .checkmark:after { display: block; }
+.checked .checkmark:after { left: 7px; top: 2px; width: 4px; height: 10px; border: solid white; border-width: 0 2px 2px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); border-radius: 0;}
+
+.custom_radio{float: left; width: 100%; margin-top: 0px;}
+.custom_radio input[type="radio"]{ display: none; }
+.custom_radio input[type="radio"] + label{ position: relative; display: inline-block; padding-left: 31px; margin-right: auto; cursor: pointer; font-size: 16px; line-height: 26px; font-family: 'Muli', sans-serif; font-weight: 400; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; margin-bottom: 0; margin-top: 10px;}
+.custom_radio input[type="radio"] + label:before, .custom_radio input[type="radio"] + label:after{ content: ''; position: absolute; top: 2px; left: 0; width: 20px; height: 20px; text-align: center; color: white; font-family: Times; border-radius: 50%; -webkit-transition: all .3s ease; transition: all .3s ease;}
+.custom_radio input[type="radio"] + label:before { -webkit-transition: all .3s ease; transition: all .3s ease;border: 1px solid rgba(165, 172, 198, 0.5)}
+.custom_radio input[type="radio"] + label:hover:before { -webkit-transition: all .3s ease; transition: all .3s ease; border: 1px solid #1e306e}
+.custom_radio input[type="radio"]:checked + label:before { -webkit-transition: all .3s ease; transition: all .3s ease; box-shadow: inset 0 0 0 0.2em white, inset 0 0 0 1em #1e306e; border: 1px solid #1e306e}
+
+.mattresses-accordion:nth-child(-n+1){margin-top: 0;}
+
+
+.mattresses-category-content-wrap{float: right; width: 74.29824561403509%;}
+
+.mattresses-card-item-wrap{float:left; width:100%; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; justify-content: space-between; flex-flow: row wrap;}
+.mattresses-card-item{float:left; width:31.05076741440378%; border-radius: 5px;  border: solid 1px rgba(165, 172, 198, 0.5); text-align: center; outline: none; position: relative; -webkit-transition: .3s ease-in-out; -moz-transition: .3s ease-in-out; transition: .3s ease-in-out; margin-top: 40px;}
+.mattresses-card-item:nth-child(-n+3){margin-top: 0px;}
+.mattresses-card-item:hover{ box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3);}
+.on-sale-view{position: absolute; width: 55px; height: 19px; background-color: #fa556e; top: 20px; left: 0; z-index: 9;}
+.on-sale-view span{font-size: 9px; line-height: 20px; color: #ffffff; float: left; text-transform: uppercase; width: 100%; font-family: 'Muli', sans-serif; font-weight: 700; position: relative; letter-spacing: .6px}
+.on-sale-view span:after {content: ''; right: -5px; width: 5px; height: 19px; position: absolute; background-image: url(../img/on-sale.png); background-size: 5px 19px; background-repeat: no-repeat; background-position: center center;}
+.mattresses-card-item figure{min-height: 162px; background-color: #f6f9fd; border-radius: 5px; max-height: 162px; position: relative}
+.mattresses-card-item figure:after{content: ''; width:56px; height:30px; background-image: url(../img/Comfort-Solutions@x2.png); left: 50%; bottom: -15px; transform: translateX(-50%);position: absolute; background-repeat: no-repeat; background-size: cover; background-position: center center;}
+.mattresses-card-item figure:before {content: ''; width: 100px; height: 27px; position: absolute; top: auto; left: 50%; bottom: 0px; transform: translateX(-50%); background-image: url(../img/shap.png); background-size: cover; background-repeat: no-repeat; background-position: center center;}
+.mattresses-card-text{float:left; width:100%; padding: 25px 20px 18px 20px; text-align: left}
+.mattresses-card-text span{font-size:20px; line-height: 30px; color: #616e99;font-family: 'Muli', sans-serif; font-weight: 400;}
+.mattresses-card-category{float:left; width:100%; margin-top: 5px;}
+.mattresses-card-category img{display: inline-block; width: 18px; vertical-align: middle}
+.mattresses-card-category dfn{display: inline-block; font-size:14px; line-height: 20px; color:#616e99; font-family: 'Muli', sans-serif; font-weight: 400;  vertical-align: middle; margin-left: 3px;}
+.mattresses-card-text p{float:left; font-size:24px;line-height: 30px; color: #3c81f5; letter-spacing: 0.5px; font-family: 'Muli', sans-serif; font-weight: 800; margin-top: 22px; }
+.mattresses-card-text p del{font-size:14px;line-height: 20px; color: #616e99; letter-spacing: normal; font-family: 'Muli', sans-serif; font-weight: 400; padding-left: 2px;}
+.custom_radio input[type="radio"] + label dfn{font-size: 16px; line-height: 20px; color: #a5acc6; font-weight: 400; padding-left: 5px; }
+/* Info section */
+
+
+.mattresses-need-help{background-image: linear-gradient(to left, #d2dfff, #fbf6ff); padding: 20px; border: none;}
+.mattresses-need-help.mattresses-card-item figure{min-height: auto; background-color: transparent; max-width: 64px; margin: 0 auto}
+.mattresses-need-help.mattresses-card-item h2{margin-top: 20px;}
+.mattresses-need-help.mattresses-card-item p{margin-top: 20px;}
+.mattresses-need-help.mattresses-card-item figure:before, .mattresses-need-help.mattresses-card-item figure:after{display: none;}
+.need-help-btn {float: left; width: 100%; margin-top: 58px;}
+.need-help-btn .large{width: 100%}
+
+
+
+.mattresses-category-paggination{float: left; width: 100%; margin-top:45px; display: flex; flex-flow: row wrap; justify-content: space-between; }
+.category-paggination-prev{float: left; width: 100%; max-width: 104px; position: relative; text-align: right; margin-top: 2px;}
+.category-paggination-prev a, .category-paggination-next a{font-size: 18px; line-height: 23px; color: #3c81f5; font-weight: 700; }
+.category-paggination-prev a:after, .category-paggination-next a:after{content: ''; width: 0; height: 0; position: absolute; top: -5px; left: -6px; background-color: #e5f1ff; border-radius: 100%; z-index: -1; transition: .05s ease-in-out; }
+.category-paggination-prev a:hover:after, .category-paggination-next a:hover:after{width: 36px; height: 36px;}
+.category-paggination-next a:after{top: -6px; left: auto; right: 0px;}
+.category-paggination-prev .trailing:after {display: none;}
+.category-paggination-prev img{position: absolute; left: 0; top: 0}
+.category-paggination-prev dfn{padding-left: 30px;}
+.category-paggination-next dfn{padding-right: 30px;}
+.category-paggination-next .trailing:after{display: none}
+.category-paggination-disable {opacity: .50}
+.category-paggination-next{float: left; width: 100%; max-width: 82px; position: relative; margin-top: 2px;}
+.category-paggination-next .trailing:after{display: none}
+.category-paggination-next img{position: absolute; top: 0; right: 5px;}
+.category-paggination-count{float: left; width: 50%; text-align: center;}
+.category-paggination-count li{display: inline-block;  text-align: center; max-width: 40px; width: 100%; position: relative; padding-right: 10%; cursor: pointer}
+.category-paggination-count li a{font-size: 20px; line-height: 30px; color: #1e306e;position: relative;}
+.category-paggination-count li a:after{content: ''; width: 0; height: 0; position: absolute; top: -2px; left: -12px; background-color: #e5f1ff; border-radius: 100%; z-index: -1; transition: .05s ease-in-out}
+.category-paggination-count li a:hover:after{width: 36px; height: 36px;}
+.category-paggination-count li a.paggination-active:after{width: 36px; height: 36px;}
+.category-paggination-count li:last-child a:after{left: -6px}
+
+
+
+.mattresses-text-content-wrap{float: left; width: 100%; padding-top: 86px;}
+.mattresses-text-content-wrap .common-wrap{max-width: 987px;}
+.mattresses-text-inner{float: right; width: 100%; max-width: 750px;}
+.mattresses-text-content{float: left; width: 100%;}
+.mattresses-text-content-item{float: left; width: 100%; margin-top: 40px; padding-right: 2px;}
+.mattresses-text-content-item p{font-size: 16px; line-height: 26px; margin-top: 19px;}
+.mattresses-content-list-item{float: left; width: 100%; margin-top: 10px;}
+.mattresses-content-list-item ul li{padding-left: 32px; position: relative; margin-top: 10px;}
+.mattresses-content-list-item ul li:before{content: ''; position: absolute; top: 5px; left: 0; background-image: url(../svgs/category-sublevel/check.svg); background-repeat: no-repeat; background-size: 16px 16px; background-position: center center; width: 16px; height: 16px;}
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    input[type="text"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+    
+    
+
+    .category-paggination-prev{width: 28px;}
+    .category-paggination-next{width: 28px;}
+    .mattresses-category-paggination{padding: 0px 19px 0 25px; margin-top: 28px;}
+    .mattresses-content-list-item ul li{margin-top: 7px;}
+    .mattresses-text-wrap{padding-top: 32px;}
+    .category-paggination-count li:first-child{padding-left: 9%;}
+    .mattresses-accordion h6:after{display: none}
+    .mattresses-text-wrap h1{letter-spacing: 0}
+    .mattresses-text-wrap .common-wrap{padding: 0 18px;}
+    .mattresses-text-wrap .lead{margin-top: 17px; line-height: 26px;}
+    .mattresses-text-content-wrap {padding-top: 46px; }
+    .mattresses-category-accordion-wrap {margin-top: 12px; }
+    .mattresses-category-wrap{padding-top: 60px;}
+    .mattresses-category-accordion-heading { float: left; width: 100%; padding: 0 16px; }
+    .mattresses-category-wrap .common-wrap{padding: 0}
+    .mattresses-category-accordion-content{width: 100%; visibility: hidden; position: fixed; top: 0; left: 0; top: 0; bottom: 0; opacity: 0; transition: .3s ease-in-out; overflow-y: scroll; z-index: 999999;}
+    .modal-active.mattresses-category-accordion-content { visibility: visible; opacity: 1; display: block; background: #ffffff; }
+    .mattresses-accordion{background-color: #ffffff; padding: 0 16px}
+    .mattresses-accordion h6:before{display: none}
+    .mattresses-close-modal { float: right; width: 24px; right: 12px; height: 1px; left: auto; top: 20px; position: relative; padding-bottom: 0; margin-bottom: 30px; z-index: 9; cursor: pointer; }
+    .mattresses-close-modal figure{width: 16px;}
+    .mattresses-category-content-wrap{width: 100%;}
+    .mattresses-card-item{width: 100%; margin-top: 24px; margin: 24px 16px 0}
+    .mattresses-need-help{margin-right: 0; margin-left: 0; border-radius: 0}
+    .mattresses-need-help.mattresses-card-item h2 { margin-top: 20px; font-size: 34px; line-height: 46px; }
+    .mattresses-card-item:nth-child(-n+3){margin-top: 24px;}
+    .filter-wrap span{display: none}
+    .mattresses-card-item:first-child{margin-top: 0;}
+    .filter-wrap { max-width: 156px; width: 100%; background-color: #e5f1ff; padding: 13px 20px; border-radius: 5px; }
+    .best-value-wrap { float: right; max-width: 154px; width: 100%; padding: 10px 0 13px; margin-top: 0;}
+    .filter-wrap h4 { font-size: 14px; line-height: 14px; color: #3c81f5; font-weight: 700; float: left; width: 50%; text-align: left; padding-left: 43px; position: relative; cursor: pointer; user-select: none; }
+    .filter-wrap h4:before { content: ''; position: absolute; top: 0px; left: 0; background-image: url(../svgs/category-sublevel/filters.svg); background-size: cover; background-repeat: no-repeat; background-position: center center; width: 14px; height: 14px; }
+    .mattresses-text-content-item{margin-top: 24px;}
+    .mattresses-text-content-item p{margin-top: 16px;}
+    .mattresses-card-item figure{max-width: 100%; max-height: 100%; margin: 0 auto; padding: 0 32px}
+    .mattresses-category-content-inner{float: left; width: 100%; padding-bottom: 198px;}
+    .mattresses-submit-wrap{position: fixed; bottom: 0; left: 0; border-radius: 5px; box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2), 0 -11px 6px -10px rgba(0, 0, 0, 0.05); padding: 20px 16px 12px; margin-top: 16px;}
+    .mattresses-submit input[type="submit"]{background-color: #e5f1ff; color: #3c81f5; border: 1px solid #e5f1ff}
+    .mattresses-submit-wrap span { display: block; color: rgba(60, 129, 245, .50); font-size: 14px; line-height: 20px; text-transform: capitalize; text-align: center;}
+    .custom_radio input[type="radio"] + label{font-weight: 400;}
+    .mattresses-accordion:nth-child(-n+1){margin-top: 10px;}
+    .mattresses-accordion h6{cursor: auto}
+    .category-paggination-count li:nth-child(2), .category-paggination-count li:nth-child(3), .category-paggination-count li:nth-child(4){display: none}
+    
+    
+    .category-paggination-prev dfn, .category-paggination-next dfn{display: none}
+    .mattresses-accordion:nth-child(-n+1){margin-top: 0;}
+    .checked { display: block; position: relative; padding-left: 31px; margin-top: 16px; cursor: pointer; margin-bottom: 0; font-size: 16px; line-height: 26px; }
+    .mattresses-form-row-wrap .checked:nth-child(1){margin-top: 9px;}
+    .mattresses-accordion-hide{padding-left: 0;}
+    .mattresses-accordion:nth-child(2){margin-top: 28px;}
+    .mattresses-submit{float: left; width: 100%; margin-top: 6px;}
+    .mattresses-accordion-hide{display: block}
+    .mattresses-accordion:nth-child(3){margin-top: 30px;}
+    .mattresses-accordion:nth-child(3) .custom_radio input[type="radio"] + label{margin-top: 16px;}
+    .mattresses-accordion:nth-child(3) .custom_radio input[type="radio"] + label:nth-child(2){margin-top: 6px;}
+    .mattresses-accordion:nth-child(4){margin-top: 32px;}
+    .mattresses-accordion:nth-child(5){margin-top: 32px;}
+    .mattresses-accordion:nth-child(5) .custom_radio input[type="radio"] + label{margin-top: 16px;}
+    .mattresses-accordion:nth-child(5) .custom_radio input[type="radio"] + label:nth-child(2){margin-top: 6px;}
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    input[type="text"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+    
+    
+    .mattresses-category-accordion-content { float: left; width: 32%; }
+    .mattresses-category-content-wrap { float: right; width: 64%; }
+    .mattresses-card-item figure {min-height: auto; max-height: 100%; max-width: 100%;}
+    .category-paggination-count li {max-width: 26px; width: 100%; padding-right: 0%; }
+    
+    .mattresses-card-item{width: 48%;}
+    .mattresses-card-item:nth-child(-n+3){margin-top: 40px;}
+    .mattresses-card-item:nth-child(-n+2){margin-top: 0;}
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+

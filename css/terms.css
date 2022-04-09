@@ -1,0 +1,64 @@
+.terms-hero-wrap {float: left; width: 100%; background-image: -webkit-gradient(linear, right top, left top, from(#d2dfff), to(#fbf6ff)); background-image: -o-linear-gradient(right, #d2dfff, #fbf6ff); background-image: linear-gradient(to left, #d2dfff, #fbf6ff); min-height: 262px;}
+.terms-hero-wrap h1{float: left; width: 100%; text-align: center; margin-top: 82px; letter-spacing: 1px; }
+
+
+.terms-content-wrap{float: left; width: 100%; margin-top: 60px; position: relative; padding-bottom: 100px;}
+.terms-content-wrap .common-wrap{max-width: 1020px; padding: 0 16px;}
+.terms-content{float: left; width: 100%;}
+.terms-content-heading{float: left; width: 100%; padding-left: 12%;}
+.terms-content-list{float: left; width: 100%; margin-top: 16px; padding-left: 12%;}
+.terms-content-sub-list{float: left; width: 100%; margin-top: 20px; padding-left: 20px;}
+.terms-list-item{float: left; width: 100%;}
+.terms-list-item span{float: left; margin-right: 7px;}
+.terms-list-item p{float: left; width: 80%;}
+.terms-content-sub-list > .terms-list-item:nth-child(2){margin-top: 3px;}
+.terms-content-sub-list .terms-list-item:nth-child(3){margin-top: 16px;}
+.terms-content-sublist-child{float: left; width: 100%; padding-left: 35px;}
+.terms-content-sublist-child .terms-list-item{margin-top: 13px;}
+.terms-content-sublist-child .terms-list-item:last-child{margin-top: 35px;}
+.terms-content-sub-list > .terms-list-item:nth-child(1) p{width: 80%;}
+.terms-content-sub-list > .terms-list-item:nth-child(3) p{width: 78%;}
+.terms-content-sublist-child .terms-list-item p{width: 86%;}
+.terms-content:nth-child(2){margin-top: 35px;}
+.terms-overlay{float: left; width: 100%; min-height: 294px; background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#ffffff)); background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff); background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff);  position: absolute; left: 0; bottom: 0;}
+
+
+
+
+/* =======================================================================================================
+============================================ Responsive style ========================================== */
+
+/*		Mobile Layout: 320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .terms-conditions.main-content-wrap { padding-top: 120px; }
+    .terms-hero-wrap h1{font-size: 28px; line-height: 36px; letter-spacing: 0.2px; margin-top: 40px; font-weight: 700;}
+    .terms-hero-wrap{min-height: 136px;}
+    .terms-content-heading {padding-left: 0;}
+    .terms-content-heading h4{font-size: 18px; line-height: 28px;}
+    .terms-content-list {padding-left: 0;}
+    .terms-content-sub-list{padding-left: 0;}
+    .terms-content-sublist-child .terms-list-item{display: none;}
+    .terms-content-sublist-child .terms-list-item:nth-child(4){display: block;}
+    .terms-content-wrap{margin-top: 25px; padding-bottom: 50px;}
+    .terms-list-item span{margin-right: 8px;}
+    .terms-content-list{margin-top: 5px;}
+    .terms-list-item p { float: left; width: 89%; }
+    .terms-content-sub-list {margin-top: 8px;}
+    .terms-content-sub-list > .terms-list-item:nth-child(1) p { width: 88%; }
+    .terms-content-sub-list > .terms-list-item:nth-child(2) { margin-top: 7px; }
+    .terms-content-sub-list .terms-list-item:nth-child(3) { margin-top: 9px; }
+    .terms-content-sublist-child .terms-list-item p { width: 81%; }
+    .terms-content-sublist-child {padding-left: 0}
+
+    .terms-content-wrap .common-wrap{padding: 0 12px 0 16px;}
+    .terms-content-sub-list > .terms-list-item:nth-child(3) p { width: 89%; }
+    .terms-content-sublist-child .terms-list-item { margin-top: 0px; }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .terms-content-heading {padding-left: 6%;}
+    .terms-content-list {padding-left: 6%;}
+
+}

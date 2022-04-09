@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <linearGradient id="uxlqes73ra" x1="0%" x2="100%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#0A3097"/>
+            <stop offset="100%" stop-color="#3C81F5"/>
+        </linearGradient>
+        <linearGradient id="k1z3hz9krb" x1="100%" x2="0%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#F2F8FF"/>
+            <stop offset="100%" stop-color="#D2DFFF"/>
+        </linearGradient>
+        <linearGradient id="uwbottcjlc" x1="0%" x2="100%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#0A3097"/>
+            <stop offset="100%" stop-color="#3C81F5"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="url(#uxlqes73ra)" d="M61.4 1.6c.552 0 1 .448 1 1l.001 19.818c.905.116 1.599.78 1.599 1.582v3.2c0 .802-.694 1.466-1.599 1.582L62.4 61.4c0 .552-.448 1-1 1H2.6c-.552 0-1-.448-1-1V28.782C.694 28.666 0 28.002 0 27.2V24c0-.802.694-1.466 1.6-1.582V2.6c0-.552.448-1 1-1h58.8z"/>
+        <path fill="url(#k1z3hz9krb)" d="M3.2 28.8H60.800000000000004V60.8H3.2z"/>
+        <path fill="#FFF" d="M3.2 3.2H60.800000000000004V22.4H3.2zM62.4 24L1.6 24 1.6 27.2 62.4 27.2z"/>
+        <path fill="url(#uwbottcjlc)" d="M26.2 8c.552 0 1 .448 1 1v9.2c0 .552-.448 1-1 1H9c-.552 0-1-.448-1-1V9c0-.552.448-1 1-1h17.2zM55 8c.552 0 1 .448 1 1v9.2c0 .552-.448 1-1 1H37.8c-.552 0-1-.448-1-1V9c0-.552.448-1 1-1H55z"/>
+        <path fill="#FFF" d="M25.6 9.6v8h-16v-8h16zm28.8 0v8h-16v-8h16z"/>
+    </g>
+</svg>

@@ -1,0 +1,322 @@
+/* ================ 02/ 07/ 2020 ================ */
+
+/* Home Page Style */
+.hero-slider-wrap{float: left; width: 100%; position: relative;}
+.hero-slider-wrap.lunar-bg:after{bottom: 30px;}
+.hero-slider-container {float: left; width: 100%; position: relative;}
+.hero-slider-item-wrap {float: left; width: 100%;}
+.hero-slider-item{float: left; width: 100%; min-height: 500px;}
+
+.hero-slider-item-wrap .slick-dots{bottom: -25px}
+.hero-slider-item-wrap .slick-dots li {position: relative; display: inline-block; width: 50px; height: 4px; padding-left: 0; padding-right: 0; background: #3c81f5; border-radius: 2.5px; margin-top: 3px; margin-bottom: 3px; margin-left: 6px; margin-right: 6px;}
+.hero-slider-item-wrap .slick-dots li + li {margin-left: 6px; margin-right: 6px;}
+.hero-slider-item-wrap .slick-dots li.slick-active {width: 50px; overflow: hidden; background: #e5f1ff; margin-left: 6px; margin-right: 6px;}
+.hero-slider-item-wrap .slick-dots li.slick-active::before {position: absolute; display: inline-block; height: 6px; background: #3c81f5; content: ""; top: 0; left: 0; right: 100%; bottom: 0; -webkit-animation: progress 5s linear 0s; -moz-animation: progress 5s linear 0s; -ms-animation: progress 5s linear 0s; -o-animation: progress 5s linear 0s; animation: progress 5s linear 0s;}
+.hero-slider-item-wrap .slick-dots li.slick-active ~ li {background: #e5f1ff;}
+@-moz-keyframes progress { 100% {right: 0px;} }
+@-webkit-keyframes progress { 100% {right: 0px;} }
+@-ms-keyframes progress { 100% {right: 0px;} } 
+@-o-keyframes progress { 100% {right: 0px;} } 
+@keyframes progress { 100% {right: 0px;} }
+
+.hero-slider-item-wrap .slick-dots li button:before, .hero-slider-item-wrap .slick-dots li button:hover, .hero-slider-item-wrap .slick-dots li button:focus{opacity: 0}
+
+.hero-slider-item-wrap .slick-dots li button{height: 14px;}
+
+.hero-content{float: left; width: 100%; position: absolute; top: 80px; left: 0;}
+.hero-content-inner{float: left; max-width: 555px;}
+.hero-content-inner h1{letter-spacing: -.3px;}
+.hero-content-inner .lead{margin-top: 20px;}
+.hero-btn{float: left; width: 100%; margin-top: 40px;}
+
+/* Accessories Wrap */
+.accessories-wrap{float: left; width: 100%;padding: 66px 0 80px}
+.accessories-content{max-width: 750px; margin: 0 auto; text-align: center;}
+.accessories-content h3{font-size: 28px;  letter-spacing: .3px;}
+.accessories-content .lead{margin-top: 20px;}
+.accessories-item-wrap{float: left; width: 100%; margin-top: 40px; display: -webkit-flex; display: -moz-flex; display: flex; flex-flow: row wrap; justify-content: space-between;}
+.accessories-item{float: left; width: 18.42105263157895%; border-radius: 5px; box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.1); text-align: center; transition: .3s ease-in-out; padding-top: 55px}
+.accessories-item:hover{box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3);}
+.accessories-item figure{max-width: 64px; margin: 0 auto;}
+.accessories-item-content{float: left; width: 100%; margin-top: 64px; padding: 16px 0; border-top: 1px solid rgba(165, 172, 198, 0.5);}
+.accessories-item-content h4{font-size: 18px; line-height: 23px;}
+/* Accessories Wrap */
+
+/* find right mattress wrap */
+.find-right-mattress-wrap{float: left; width: 100%; padding-top: 80px; background-image: linear-gradient(to left, #fbf6ff, #d2dfff);}
+
+/*.find-right-mattress-wrap{float: left; width: 100%; pading-top: 80px;}*/
+.find-right-mattress-container{float: left; width: 100%; box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3); background-image: linear-gradient(to left, #fbf6ff, #d2dfff); display: -webkit-flex; display: -moz-flex; display: flex; align-items: center; flex-flow: row wrap; z-index: 1; position: relative; border-radius: 10px;}
+.find-right-mattress-thumb{float: left; width: 48.99%;}
+.find-right-mattress-content{float: left; width: 40.576%; margin-left: 26px;}
+.find-right-mattress-content h2{letter-spacing: -0.3px}
+.find-right-mattress-content .lead{max-width: 458px; margin-top: 20px;}
+.find-mattress-btn{float: left; width: 100%; margin-top: 40px;}
+/* find right mattress wrap */
+.home-content .info-wrap{margin-top: 78px;}
+.home-content .info-wrap h3{text-align: center; letter-spacing: -0.4px;}
+.home-content .info-card-wrap{margin-top: 39px;}
+
+
+/* Selling Points Wrap */
+.selling-points-wrap{float: left; width: 100%; padding-top: 80px;}
+.selling-points-item-wrap{float: left; width: 100%; display: -webkit-flex; display: -moz-flex;flex-flow: row wrap; display: flex; justify-content: space-between;}
+.selling-points-item{float: left; width: 31.57894736842105%; padding: 0 30px; text-align: center;}
+.selling-points-item figure{max-width: 64px; margin: 0 auto}
+.selling-points-content{float: left; width: 100%; margin-top: 20px;}
+.selling-points-item p{margin-top: 16px;}
+.selling-points-btn{margin-top: 20px;}
+/* Selling Points Wrap */
+
+
+/* find right mattress wrap */
+.mattress-advice-wrap{float: left; width: 100%; padding-top: 80px; background-image: linear-gradient(to left, #d2dfff, #fbf6ff); margin-top: 80px;}
+
+/*.find-right-mattress-wrap{float: left; width: 100%; pading-top: 80px;}*/
+.mattress-advice-container{float: left; width: 100%; box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3); background-image: linear-gradient(to left, #d2dfff, #fbf6ff); display: -webkit-flex; display: -moz-flex; display: flex; flex-flow: row wrap; justify-content: space-between; z-index: 1; position: relative; border-radius: 10px}
+.mattress-advice-thumb{float: left; width: 48.685%; position: relative;}
+.mattress-advice-thumb img{border-radius: 10px}
+.mattress-advice-content{float: left; width: 48.948%; padding: 100px 0 0 97px;}
+.mattress-advice-content h2{letter-spacing: -0.3px}
+.mattress-advice-content .lead{max-width: 458px; margin-top: 21px;}
+.mattress-advice-btn{float: left; width: 100%; margin-top: 40px;}
+
+/* find right mattress wrap */
+
+/* Advice Sleep Experts */
+.advice-sleep-experts{float: left; width: 100%; padding-top: 82px; text-align: center;}
+.advice-sleep-experts h3{letter-spacing: -.5px}
+.advice-sleep-experts .lead{float: left; width: 100%; margin-top: 20px;}
+.advice-sleep-experts-info{float: left; width: 100%; margin-top: 39px;}
+.advice-sleep-experts-item-wrap{float: left; width: 100%; display: -webkit-flex; display: -moz-flex; display: flex; justify-content: space-between; flex-flow: row wrap;}
+.advice-sleep-experts-item{float: left; width: 31.57894736842105%;border-radius: 5px; box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.1); outline: none; -webkit-transition: .3s ease-in-out; -moz-transition: .3s ease-in-out; transition: .3s ease-in-out;}
+.advice-sleep-experts-item:hover{box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3);}
+.advice-sleep-experts-item figure{position: relative; height: 252px; overflow: hidden}
+.advice-sleep-experts-item figure:after{content: ''; background-image: url(../svgs/home/lunar-shape-mobile.svg); background-size: cover; background-repeat: no-repeat; background-position: center center; position: absolute; left: 0; bottom: 0; top: auto; right: 0; height: 16px;}
+.advice-sleep-experts-title{float: left; width: 100%; padding: 30px 30px 96px 30px;}
+.advice-sleep-experts-title p{margin-top: 16px; color: #616e99}
+/* Advice Sleep Experts */
+
+/* Beds Blog */
+.beds-blog{float: left; width: 100%; padding-top: 80px;}
+.beds-blog-item-wrap{float: left; width: 100%;}
+.beds-blog-item{float: left; width: 100%; margin-top: 40px; padding: 40px 0; display: -webkit-flex; display: -moz-flex; display: flex; align-items: center; flex-flow: row wrap; justify-content: space-between}
+.beds-blog-item:first-child{margin-top: 0;}
+.beds-blog-content{float: left; width: 40.17543859649123%;}
+.beds-blog-content h3{letter-spacing: -.4px;}
+.beds-blog-content p{margin-top: 20px;}
+.beds-blog-thumb{float: left; width: 48.68421052631579%;}
+.trailing-btn{float: left; width: 100%; margin-top: 20px;}
+.beds-blog-item:nth-child(even) .beds-blog-content{order: 2}
+.beds-blog-item:nth-child(even) .beds-blog-thumb{order: 1}
+/* Beds Blog */
+
+/* Value Proposition */
+.value-proposition{float: left; width: 100%; padding-top: 80px; text-align: center;}
+.value-proposition-item-wrap{float: left; width: 100%; display: -webkit-flex; display: -moz-flex; display: flex; flex-flow: row wrap; justify-content: space-between; padding-right: 8px;}
+.value-proposition-item{float: left; width: 19.29824561403509%; text-align: center; outline: none;}
+.value-proposition-item figure{max-width: 40px; margin: 0 auto; }
+.value-proposition-content{float: left; width: 100%; margin-top: 20px;}
+.value-proposition-content h6{letter-spacing: 0}
+.value-proposition-content p{font-size: 14px; line-height: 20px; color: #616e99; margin-top: 10px;}
+.value-proposition-btn{float: left; width: 100%; margin-top: 60px;}
+/* Value Proposition */
+
+/* Brand Wrap */
+.brand-wrap{float: left; width: 100%; padding-top: 80px; text-align: center;}
+.brand-wrap .sm-container{max-width: 940px;}
+.brand-content{max-width: 750px; margin: 0 auto}
+.brand-wrap h3{letter-spacing: -.4px;}
+.brand-wrap p{margin-top: 20px;}
+.brand-item-wrap{float: left; width: 100%; margin-top: 40px; display: -webkit-flex; display: -moz-flex; display: flex; flex-flow: row wrap; justify-content: space-between;}
+.brand-item{float: left; width: 13.33333333333333%; }
+.brand-item:nth-child(1){float: left; width: 13.33333333333333%; }
+/* Brand Wrap */
+
+/* Home Page Style */
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    input[type="text"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+    
+    
+    /* Home Page Style */
+
+    /* hero-slider-item */
+    .hero-slider-item{min-height: 220px; background-position: 93%;}
+    .hero-content {position: relative; top: 0; left: 0; text-align: center;}
+    .hero-content-inner{margin-top: 2px;}
+    .hero-slider-item-wrap .slick-dots {bottom: -26px; z-index: 100;}
+    .hero-slider-item-wrap:after{height: 16px;}
+    .hero-content-inner .lead{margin-top: 17px;}
+    .accessories-content h3{letter-spacing: -.6px;}
+    .hero-btn{margin-top: 24px;}
+    .accessories-content h3{font-size: 24px; line-height: 34px;}
+    .accessories-wrap{padding: 60px 0}
+    .accessories-content .lead {margin-top: 16px;}
+    .accessories-item-wrap{margin-top: 24px; display: block;}
+    .accessories-item{width: 100%; padding: 8px 20px 8px 16px; display: -webkit-flex; display: -moz-flex; display: flex; align-items: center; flex-flow: row wrap; margin-top: 8px;}
+    .accessories-item:first-child{margin-top: 0;}
+    .accessories-item figure {float: left; max-width: 40px; width: 100%; margin: 0}
+    .accessories-item-content{margin: 0; padding: 0; border: 0; width: calc(100% - 56px); margin-left: 16px; text-align: left; position: relative;}
+    .accessories-item-content:after{content: ''; width: 24px; height: 24px; position: absolute; top: -2px; right: -4px; background-image: url(../svgs/home/arrow-right-blue.svg); background-repeat: no-repeat; background-size: cover; background-position: center center;}
+    /* hero-slider-item */
+
+    /* find right mattress wrap */
+    .find-right-mattress-wrap {height: 224px; padding-top: 30px;}
+    .find-right-mattress-thumb{width: 100%; margin-bottom: -43px; border-radius: 10px}
+    .find-right-mattress-content{width: 100%; margin-left: 0; text-align: center; padding: 30px 30px 0; background-image: linear-gradient(to left, #fbf6ff, #d2dfff); border-radius: 10px}
+    .find-right-mattress-content .lead{margin-top: 17px;}
+    .find-mattress-btn {margin-top: 18px; padding-bottom: 30px;}
+    .home-content .info-wrap {margin-top: 432px; padding: 0}
+    .home-content .info-card-wrap {margin-top: 24px;}
+    /* find right mattress wrap */
+
+    /*selling points wrap*/
+    .selling-points-wrap{padding-top: 60px;}
+    .selling-points-wrap .common-wrap{padding: 0 30px;}
+    .selling-points-item{width: 100%; padding: 0; margin-top: 60px;}
+    .selling-points-item p {margin-top: 14px;}
+    .selling-points-item:first-child{margin-top: 0;}
+    .selling-points-content{margin-top: 22px;}
+    .selling-points-btn {margin-top: 18px;}
+    /*selling points wrap*/
+
+    /*mattress advice wrap*/
+    .mattress-advice-wrap{background-image: linear-gradient(to left, #fbf6ff, #d2dfff); padding-top: 32px; margin-top: 61px; height: 224px;}
+    .mattress-advice-container{border-radius: 10px; background-image: linear-gradient(to left, #fbf6ff, #d2dfff); }
+    .mattress-advice-content {width: 100%; order: 2; padding: 11px 30px 30px; text-align: center;background-image: linear-gradient(to left, #fbf6ff, #d2dfff); z-index: 9; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;}
+    .mattress-advice-content .lead{max-width: 100%; margin-top: 17px;}
+    .mattress-advice-thumb{width: 100%; margin-bottom: -25px;border-top-right-radius: 10px; border-top-left-radius: 10px;}
+    .mattress-advice-btn{margin-top: 35px;}
+    .video-play-btn {position: absolute; left: 50%; top: 42%; padding: 20px;}
+    .video-play-btn figure {width: 60px;}
+    .video-play-btn figure:after {padding: 38px; top: -8px; left: -8px;}
+    /*mattress advice wrap*/
+
+    /* advice sleep experts */
+    .advice-sleep-experts{margin-top: 396px;}
+    .advice-sleep-experts .common-wrap{padding: 0 10px;}
+    .advice-sleep-experts-item figure{height: 210px; overflow: hidden}
+    .advice-sleep-experts-item{margin: 0 6px 25px}
+    .advice-sleep-experts-item img{width: 100%}
+    .advice-sleep-experts-title{padding: 30px 30px 120px 30px;}
+    .advice-sleep-experts-title p{margin-top: 9px;}
+    .advice-sleep-experts .lead{margin-top: 16px;}
+    .advice-sleep-experts-info{margin-top: 22px;}
+    .advice-sleep-experts-info .slick-dots{bottom: -17px;}
+    /* advice sleep experts */
+
+    /*beds blog content*/
+    .beds-blog-content {width: 100%;}
+    .beds-blog-thumb{width: 100%; margin-top: 22px;}
+    .beds-blog-item:nth-child(even) .beds-blog-content{order: 1}
+    .beds-blog-item{padding: 0; margin-top: 62px;}
+    .beds-blog{padding-top: 48px;}
+    .beds-blog-content p {margin-top: 15px;}
+    .trailing-btn{margin-top: 24px;}
+    /*beds blog content*/ 
+
+    /* value proposition */
+    .value-proposition{background-color: #f6f9fd; margin-top: 60px; padding: 60px 0 62px}
+    .value-proposition .common-wrap{padding: 0}
+    .value-proposition-item-wrap {width: 100%; margin-left: 0; padding: 0 0 10px 42px;}
+    .value-proposition-item{background-color: #ffffff; width:82.8125%; margin: 0 8px; box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.1); padding: 30px; margin-bottom: 10px; border-radius: 5px;}
+    .value-proposition-btn{padding: 0 16px; margin-top: 6px;}
+    .value-proposition-item-wrap .slick-dots{left: 50%; transform: translateX(-50%); bottom: -22px}
+    .testimonial-slider-inner .slick-list{padding-left: 0 !important; }
+    .value-proposition-item-wrap .slick-list{padding-left: 0 !important; }
+    /* value proposition */
+
+    /* brand wrap */
+    .brand-wrap{padding-top: 60px;}
+    .brand-content p{margin-top: 16px;}
+    .brand-item-wrap{margin-top: 0; display: block;}
+    .brand-item:nth-child(1){float: none}
+    .brand-item {width: 100%; float: none; max-width: 37%; margin: 0 auto; padding-top: 23px;}
+    .brand-item:nth-child(1){width: 100%;}
+    /* brand wrap */
+    .slick-dots li button:before{content: ''}
+    /* Home Page Style */
+    
+    
+}
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .info-card-item figure{min-height: auto; max-height:none;}
+    .info-card-item figure:before{bottom: 0; height: 25px}
+    .advice-sleep-experts-item figure:after{height: 27px;}
+    .home-content .info-wrap {margin-top: 590px;}
+    .advice-sleep-experts {margin-top: 520px; }
+    .mattress-advice-content {padding-top: 20px;}
+    .hero-slider-item-wrap:after {height: 26px; bottom: -2px}
+    .hero-content-inner{float: none; margin: 0 auto;}
+    .reasons-book-mobi-bg{min-height: 280px}
+}
+
+
+@media only screen and (min-width: 668px) and (max-width: 767px) {
+    .home-content .info-wrap {margin-top: 650px;}
+    .advice-sleep-experts { margin-top: 560px; }
+}
+@media only screen and (min-width: 481px) and (max-width: 568px) {
+    .home-content .info-wrap { margin-top: 520px; }
+    .advice-sleep-experts { margin-top: 470px; }
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    input[type="text"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+    
+
+    /* Home Page Style */
+    .hero-slider-item{background-position: 82%}
+
+    .accessories-wrap{padding: 40px 0}
+    .accessories-item{padding-top: 20px;}
+    .accessories-item-content{margin-top: 20px; padding: 10px 0}
+    .accessories-item-content h4 {font-size: 14px; line-height: 24px;}
+
+    .find-right-mattress-wrap, .mattress-advice-wrap{padding-top: 50px;}
+    .find-right-mattress-thumb {width: 45%;}
+    .find-right-mattress-content{width: 53%; margin-left: 0;}
+    .find-right-mattress-container{padding: 20px 0px;}
+    .selling-points-item {width: 32.5%; padding: 0px 10px;}
+    .mattress-advice-content {width: 50%; padding: 20px 0 0 20px;}
+    .mattress-advice-thumb{width: 50%}
+    .mattress-advice-content .lead{margin-top: 10px;}
+    .mattress-advice-btn{margin-top: 20px;}
+
+    .advice-sleep-experts-title{padding: 30px;}
+    .advice-sleep-experts-item figure{height: auto; overflow: visible}
+    .beds-blog{padding-top: 30px;}
+    .beds-blog-content {width: 47%;}
+    .beds-blog-content p, .trailing-btn{margin-top: 10px;}
+    .beds-blog-item {margin-top: 0; padding: 10px 0;}
+
+    .value-proposition{padding-top: 40px;}
+    .value-proposition-btn{margin-top: 30px;}
+    .value-proposition-item{width: 19%}
+
+    .brand-wrap{padding-top: 40px;}
+    .brand-item, .brand-item:nth-child(1){width: 20%}
+    /* Home Page Style */
+    
+}
+
+/*		Tablet Layout: 1024px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    input[type="text"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+    .find-right-mattress-wrap, .mattress-advice-wrap{padding-top: 50px;}
+    .advice-sleep-experts-item figure{height: auto; overflow: visible}
+    .mattress-advice-content {width: 50%; padding: 50px 0 0 50px;}
+    .hero-slider-item{background-position: 75%}
+}
